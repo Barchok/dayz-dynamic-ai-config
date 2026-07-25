@@ -1,0 +1,508 @@
+{
+ "ClassName": "",
+ "Chance": 1.0,
+ "Quantity": {
+  "Min": 0.0,
+  "Max": 0.0
+ },
+ "Health": [],
+ "InventoryAttachments": [
+  {
+   "SlotName": "Body",
+   "Items": [
+    {
+     "ClassName": "TTsKOJacket_Camo",
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Legs",
+   "Items": [
+    {
+     "ClassName": "TTSKOPants",
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Feet",
+   "Items": [
+    {
+     "ClassName": "TTSKOBoots",
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "CombatBoots_Green",
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Headgear",
+   "Items": [
+    {
+     "ClassName": "PilotkaCap",
+     "Chance": 0.3,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "BudenovkaHat_Gray",
+     "Chance": 0.2,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "MilitaryBeret_ChDKZ",
+     "Chance": 0.2,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "OfficerHat",
+     "Chance": 0.15,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "MASK",
+   "Items": [
+    {
+     "ClassName": "Bandana_Camopattern",
+     "Chance": 0.15,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Gloves",
+   "Items": [
+    {
+     "ClassName": "TacticalGloves_Green",
+     "Chance": 0.35,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Hips",
+   "Items": [
+    {
+     "ClassName": "MilitaryBelt",
+     "Chance": 0.6,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Vest",
+   "Items": [
+    {
+     "ClassName": "HighCapacityVest_Olive",
+     "Chance": 0.45,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "PressVest_Blue",
+     "Chance": 0.2,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Back",
+   "Items": [
+    {
+     "ClassName": "AssaultBag_Ttsko",
+     "Chance": 0.55,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Mag_AKM_30Rnd",
+       "Chance": 0.5
+      },
+      {
+       "ClassName": "BandageDressing",
+       "Chance": 0.4
+      },
+      {
+       "ClassName": "Ammo_762x39",
+       "Chance": 0.35,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "InventoryCargo": [
+  {
+   "ClassName": "TacticalBaconCan",
+   "Chance": 0.45
+  },
+  {
+   "ClassName": "BakedBeansCan",
+   "Chance": 0.4
+  },
+  {
+   "ClassName": "PeachesCan",
+   "Chance": 0.35
+  },
+  {
+   "ClassName": "WaterBottle",
+   "Chance": 0.45,
+   "Quantity": {
+    "Min": 0.3,
+    "Max": 1.0
+   }
+  },
+  {
+   "ClassName": "SodaCan_Cola",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "BandageDressing",
+   "Chance": 0.8
+  },
+  {
+   "ClassName": "TetracyclineAntibiotics",
+   "Chance": 0.35
+  },
+  {
+   "ClassName": "Morphine",
+   "Chance": 0.35
+  },
+  {
+   "ClassName": "SalineBagIV",
+   "Chance": 0.25
+  },
+  {
+   "ClassName": "PainkillerTablets",
+   "Chance": 0.4
+  },
+  {
+   "ClassName": "DisinfectantSpray",
+   "Chance": 0.25
+  },
+  {
+   "ClassName": "WeaponCleaningKit",
+   "Chance": 0.45
+  },
+  {
+   "ClassName": "Screwdriver",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "CombatKnife",
+   "Chance": 0.4
+  },
+  {
+   "ClassName": "Compass",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "Matchbox",
+   "Chance": 0.35
+  },
+  {
+   "ClassName": "Whetstone",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "M67Grenade",
+   "Chance": 0.35
+  },
+  {
+   "ClassName": "RGD5Grenade",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "Chemlight_Red",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "Roadflare",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "Rangefinder",
+   "Chance": 0.15
+  },
+  {
+   "ClassName": "Binoculars",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "Battery9V",
+   "Chance": 0.4
+  }
+ ],
+ "ConstructionPartsBuilt": [],
+ "Sets": [
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "AKM",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AKM_30Rnd"
+          },
+          {
+           "ClassName": "KobraOptic",
+           "Chance": 0.2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "AKS74U",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK74_30Rnd"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "SKS",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "PUScopeOptic",
+           "Chance": 0.3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "SVD",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_SVD_10Rnd"
+          },
+          {
+           "ClassName": "PSO1Optic",
+           "Chance": 0.3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "PP19",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_PP19_64Rnd"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_AKM_30Rnd",
+     "Chance": 0.5
+    },
+    {
+     "ClassName": "Ammo_762x39",
+     "Chance": 0.5,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     }
+    },
+    {
+     "ClassName": "Ammo_762x54",
+     "Chance": 0.3,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "ClassName": "SIDEARM",
+   "Chance": 0.35,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Hands",
+     "Items": [
+      {
+       "ClassName": "MakarovIJ70",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_IJ70_8Rnd"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_IJ70_8Rnd",
+     "Chance": 0.4
+    }
+   ]
+  }
+ ]
+}

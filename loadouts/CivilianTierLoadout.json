@@ -1,0 +1,130 @@
+{
+  "ClassName": "",
+  "Chance": 1.0,
+  "Quantity": { "Min": 0.0, "Max": 0.0 },
+  "Health": [],
+  "InventoryAttachments": [
+    {
+      "SlotName": "Body",
+      "Items": [
+        { "ClassName": "Hoodie_Black", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Hoodie_Blue", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Hoodie_Green", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Hoodie_Grey", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Shirt_BlueCheck", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Shirt_RedCheck", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "TShirt_Grey", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "DenimJacket", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] }
+      ]
+    },
+    {
+      "SlotName": "Legs",
+      "Items": [
+        { "ClassName": "Jeans_Blue", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Jeans_Black", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Jeans_Brown", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "CanvasPantsMidi_Grey", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "CargoPants_Beige", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] }
+      ]
+    },
+    {
+      "SlotName": "Feet",
+      "Items": [
+        { "ClassName": "AthleticShoes_Black", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "AthleticShoes_Grey", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "JoggingShoes_Black", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "WorkingBoots_Beige", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] }
+      ]
+    },
+    {
+      "SlotName": "Headgear",
+      "Items": [
+        { "ClassName": "BaseballCap_Black", "Chance": 0.4, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "BaseballCap_Blue", "Chance": 0.4, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "BeanieHat_Grey", "Chance": 0.3, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] }
+      ]
+    },
+    {
+      "SlotName": "Gloves",
+      "Items": [
+        { "ClassName": "WorkingGloves_Beige", "Chance": 0.25, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "WorkingGloves_Black", "Chance": 0.25, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] }
+      ]
+    },
+    {
+      "SlotName": "Hips",
+      "Items": [
+        { "ClassName": "CivilianBelt", "Chance": 0.4, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] }
+      ]
+    },
+    {
+      "SlotName": "Back",
+      "Items": [
+        {
+          "ClassName": "TaloonBag_Blue",
+          "Chance": 0.5,
+          "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }],
+          "InventoryCargo": [
+            { "ClassName": "MakarovIJ70", "Chance": 0.2 },
+            { "ClassName": "Mag_IJ70_8Rnd", "Chance": 0.2 },
+            { "ClassName": "SodaCan_Cola", "Chance": 0.2 },
+            { "ClassName": "Rag", "Chance": 0.4, "Quantity": { "Min": 0.3, "Max": 0.6 } }
+          ]
+        },
+        {
+          "ClassName": "DryBag_Orange",
+          "Chance": 0.25,
+          "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }],
+          "InventoryCargo": [
+            { "ClassName": "Apple", "Chance": 0.4, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+            { "ClassName": "Rag", "Chance": 0.4 }
+          ]
+        }
+      ]
+    },
+    {
+      "SlotName": "Melee",
+      "Items": [
+        { "ClassName": "BaseballBat", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Pipe", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "PipeWrench", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Crowbar", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+        { "ClassName": "Shovel", "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] }
+      ]
+    }
+  ],
+  "InventoryCargo": [
+    { "ClassName": "Rag", "Chance": 0.6, "Quantity": { "Min": 0.2, "Max": 0.5 } },
+    { "ClassName": "Apple", "Chance": 0.4, "Health": [{ "Min": 0.35, "Max": 0.7, "Zone": "" }] },
+    { "ClassName": "TacticalBaconCan_Opened", "Chance": 0.15 }
+  ],
+  "ConstructionPartsBuilt": [],
+  "Sets": [
+    {
+      "ClassName": "WEAPON",
+      "Chance": 0.18,
+      "InventoryAttachments": [
+        { "SlotName": "Shoulder", "Items": [
+          { "ClassName": "Izh18Shotgun", "Health": [{ "Min": 0.3, "Max": 0.7, "Zone": "" }] }
+        ] }
+      ],
+      "InventoryCargo": [
+        { "ClassName": "Ammo_12gaPellets", "Chance": 0.7, "Quantity": { "Min": 0.2, "Max": 0.7 } }
+      ]
+    },
+    {
+      "ClassName": "WEAPON",
+      "Chance": 0.16,
+      "InventoryAttachments": [
+        { "SlotName": "Hands", "Items": [
+          { "ClassName": "Magnum", "Health": [{ "Min": 0.3, "Max": 0.7, "Zone": "" }] },
+          { "ClassName": "Deagle", "Health": [{ "Min": 0.3, "Max": 0.7, "Zone": "" }],
+            "InventoryAttachments": [ { "SlotName": "", "Items": [ { "ClassName": "Mag_Deagle_9rnd" } ] } ] }
+        ] }
+      ],
+      "InventoryCargo": [
+        { "ClassName": "Ammo_357", "Chance": 0.6, "Quantity": { "Min": 0.2, "Max": 0.7 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# local ground-truth snapshot of the live server config (logs, Bohemia types.xml,
+# Expansion-generated files) — kept locally for verification, never published
+ExpansionMod-Source/
+
+# local rollback snapshots
+*.bak
+
+# OS cruft
+.DS_Store

@@ -1,0 +1,366 @@
+{
+ "ClassName": "",
+ "Chance": 1.0,
+ "Quantity": {
+  "Min": 0.0,
+  "Max": 0.0
+ },
+ "Health": [],
+ "InventoryAttachments": [
+  {
+   "SlotName": "Body",
+   "Items": [
+    {
+     "ClassName": "NBCJacketGray",
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Legs",
+   "Items": [
+    {
+     "ClassName": "NBCPantsGray",
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Feet",
+   "Items": [
+    {
+     "ClassName": "NBCBootsGray",
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Headgear",
+   "Items": [
+    {
+     "ClassName": "NBCHoodGray",
+     "Chance": 0.85,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "MASK",
+   "Items": [
+    {
+     "ClassName": "GasMask",
+     "Chance": 0.6,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "AirborneMask",
+     "Chance": 0.3,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Gloves",
+   "Items": [
+    {
+     "ClassName": "NBCGlovesGray",
+     "Chance": 0.7,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Hips",
+   "Items": [
+    {
+     "ClassName": "MilitaryBelt",
+     "Chance": 0.4,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Vest",
+   "Items": [
+    {
+     "ClassName": "HighCapacityVest_Olive",
+     "Chance": 0.4,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "PlateCarrierVest",
+     "Chance": 0.2,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Back",
+   "Items": [
+    {
+     "ClassName": "AssaultBag_Ttsko",
+     "Chance": 0.4,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "TetracyclineAntibiotics",
+       "Chance": 0.4
+      },
+      {
+       "ClassName": "Mag_AK74_30Rnd",
+       "Chance": 0.4
+      },
+      {
+       "ClassName": "Morphine",
+       "Chance": 0.3
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "InventoryCargo": [
+  {
+   "ClassName": "TetracyclineAntibiotics",
+   "Chance": 0.6
+  },
+  {
+   "ClassName": "CharcoalTablets",
+   "Chance": 0.5
+  },
+  {
+   "ClassName": "VitaminBottle",
+   "Chance": 0.4
+  },
+  {
+   "ClassName": "BandageDressing",
+   "Chance": 0.7
+  },
+  {
+   "ClassName": "Morphine",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "SalineBagIV",
+   "Chance": 0.2
+  },
+  {
+   "ClassName": "Heatpack",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "TacticalBaconCan",
+   "Chance": 0.35
+  },
+  {
+   "ClassName": "WaterBottle",
+   "Chance": 0.4,
+   "Quantity": {
+    "Min": 0.3,
+    "Max": 1.0
+   }
+  },
+  {
+   "ClassName": "Chemlight_Yellow",
+   "Chance": 0.3
+  },
+  {
+   "ClassName": "Battery9V",
+   "Chance": 0.35
+  },
+  {
+   "ClassName": "Roadflare",
+   "Chance": 0.25
+  }
+ ],
+ "ConstructionPartsBuilt": [],
+ "Sets": [
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "AKS74U",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK74_30Rnd"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "AKM",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AKM_30Rnd"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "SVD",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_SVD_10Rnd"
+          },
+          {
+           "ClassName": "PSO1Optic",
+           "Chance": 0.3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "M4A1",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_STANAG_30Rnd"
+          },
+          {
+           "ClassName": "M68Optic",
+           "Chance": 0.3
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_AK74_30Rnd",
+     "Chance": 0.5
+    },
+    {
+     "ClassName": "Ammo_545x39",
+     "Chance": 0.4,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     }
+    },
+    {
+     "ClassName": "Ammo_762x39",
+     "Chance": 0.3,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     }
+    }
+   ]
+  }
+ ]
+}
