@@ -3277,6 +3277,307 @@
      8668.2
     ]
    ]
+  },
+  {
+   "Spatial_Name": "P01_SNIPER",
+   "Spatial_TriggerRadius": 560.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 5.16e-05,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 60.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    4600.0,
+    200.0,
+    10400.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     4830.3,
+     200.0,
+     10497.4
+    ],
+    [
+     4502.6,
+     200.0,
+     10630.3
+    ],
+    [
+     4369.7,
+     200.0,
+     10302.6
+    ],
+    [
+     4697.4,
+     200.0,
+     10169.7
+    ]
+   ]
+  },
+  {
+   "Spatial_Name": "P02_SNIPER",
+   "Spatial_TriggerRadius": 534.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 5.7e-05,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 60.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    1700.0,
+    340.0,
+    13800.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     1930.3,
+     340.0,
+     13897.4
+    ],
+    [
+     1602.6,
+     340.0,
+     14030.3
+    ],
+    [
+     1469.7,
+     340.0,
+     13702.6
+    ],
+    [
+     1797.4,
+     340.0,
+     13569.7
+    ]
+   ]
+  },
+  {
+   "Spatial_Name": "P03_SNIPER",
+   "Spatial_TriggerRadius": 510.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 6.58e-05,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 60.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    3800.0,
+    250.0,
+    8700.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     4030.3,
+     250.0,
+     8797.4
+    ],
+    [
+     3702.6,
+     250.0,
+     8930.3
+    ],
+    [
+     3569.7,
+     250.0,
+     8602.6
+    ],
+    [
+     3897.4,
+     250.0,
+     8469.7
+    ]
+   ]
+  },
+  {
+   "Spatial_Name": "P04_SNIPER",
+   "Spatial_TriggerRadius": 522.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 5.83e-05,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 60.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    11800.0,
+    150.0,
+    12300.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     12030.3,
+     150.0,
+     12397.4
+    ],
+    [
+     11702.6,
+     150.0,
+     12530.3
+    ],
+    [
+     11569.7,
+     150.0,
+     12202.6
+    ],
+    [
+     11897.4,
+     150.0,
+     12069.7
+    ]
+   ]
+  },
+  {
+   "Spatial_Name": "P06_SNIPER",
+   "Spatial_TriggerRadius": 470.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 6.8e-05,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 60.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    4900.0,
+    20.0,
+    2500.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     5130.3,
+     20.0,
+     2597.4
+    ],
+    [
+     4802.6,
+     20.0,
+     2730.3
+    ],
+    [
+     4669.7,
+     20.0,
+     2402.6
+    ],
+    [
+     4997.4,
+     20.0,
+     2269.7
+    ]
+   ]
+  },
+  {
+   "Spatial_Name": "P11_SNIPER",
+   "Spatial_TriggerRadius": 496.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 5.94e-05,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 60.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    11900.0,
+    60.0,
+    14300.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     12130.3,
+     60.0,
+     14397.4
+    ],
+    [
+     11802.6,
+     60.0,
+     14530.3
+    ],
+    [
+     11669.7,
+     60.0,
+     14202.6
+    ],
+    [
+     11997.4,
+     60.0,
+     14069.7
+    ]
+   ]
+  },
+  {
+   "Spatial_Name": "P13_SNIPER",
+   "Spatial_TriggerRadius": 510.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 5.08e-05,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 60.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    7500.0,
+    200.0,
+    14500.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     7730.3,
+     200.0,
+     14597.4
+    ],
+    [
+     7402.6,
+     200.0,
+     14730.3
+    ],
+    [
+     7269.7,
+     200.0,
+     14402.6
+    ],
+    [
+     7597.4,
+     200.0,
+     14269.7
+    ]
+   ]
   }
  ],
  "Audio": [

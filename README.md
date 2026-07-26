@@ -75,6 +75,7 @@ Ten original loadouts, tier-matched to the server's `types.xml` loot tiers (see 
 | `WestMilitaryLoadout.json` | T3–4 operator | NATO: M4/M16/AUG/FAMAS/Scout, plate carrier, ballistic helmet. |
 | `HazmatLoadout.json` | NBC | NBC suit + gas mask, mixed E/W guns, anti-chem kit. Toxic zones only, small groups (1-2) with a long re-arm. |
 | `EliteTierLoadout.json` | T4 top | Plate carrier, NVG chance, M4/FAL + SCARH/M14/ASVAL/VSS/SV98. Rare. |
+| `GhillieSniperLoadout.json` | special | **Lone ghillie sniper.** M70 Tundra (or rare SV98) w/ scope + rifle ghillie wrap, rangefinder, binos. Always solo, holds position, spawns ~250m out overwatching the approach. |
 
 All weapon/clothing/mag/ammo classes are verified present in the server's `types.xml`. They're vanilla
 DayZ classes — if you run item mods and want modded gear, add those class names into the tier files.
@@ -190,6 +191,11 @@ low tiers (drifter/survivor) carry knickknacks (food/drink/meds/tools) so they'r
 clones either. **Diversity** comes from wide per-slot clothing pools (picked at random per spawn) and
 multi-gun weapon sets, so consecutive patrols in one area look and arm differently.
 
+**Suppressors are deliberately rare**, matching their scarcity in the loot economy: ~1-2% of mid-tier
+AI carry a bolt-on (raiders get the `ImprovisedSuppressor`), rising to ~11% at the top. Note the 9x39
+rifles (`VSS`/`ASVAL`) are *integrally* suppressed, so the high tiers are quieter than the bolt-on
+numbers alone suggest — their share of the weapon pool is the real dial there.
+
 The three Russian military tiers (Gorka / Soviet / East) share an AK-family arsenal but distinct
 **wardrobes** — Gorka mountain camo, TTsKO Soviet camo, modern Russian — so they read as different
 units even where their gun pools overlap. `loadouts/` were generated from a data-driven builder; the
@@ -238,6 +244,11 @@ All in `SpatialSettings.json` root unless noted.
 - **Going loud should cost more →** raise the `Audio` entries' count/accuracy, or lower `Spatial_Timer`.
 - **Never want a freshie inland →** the lattice already forbids it; the residual is the ~18% gaps, so
   lower the `Drifter` roamer weight further (or its `Spatial_Chance`).
+- **Ghillie sniper too rare / too common →** the `*_SNIPER` entries in `Location[]`. Currently ~4% per
+  full military-base visit (~1 in 8 sessions clearing three bases). Chance is derived from a target
+  per-visit probability, so scale all seven `Spatial_Chance` values by the same factor to move it.
+  His accuracy is capped at 0.72 on purpose — a sniper who always lands the first shot is a death,
+  not an encounter.
 - **Loadout feels off →** edit the tier's loadout JSON. Chance-based entries roll independently;
   no `Chance` = guaranteed.
 

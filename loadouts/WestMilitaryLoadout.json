@@ -393,6 +393,10 @@
           {
            "ClassName": "M4_RISHndgrd",
            "Chance": 0.5
+          },
+          {
+           "ClassName": "M4_Suppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -417,6 +421,10 @@
           {
            "ClassName": "M68Optic",
            "Chance": 0.3
+          },
+          {
+           "ClassName": "M4_Suppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -550,6 +558,10 @@
          "Items": [
           {
            "ClassName": "Mag_FNX45_15Rnd"
+          },
+          {
+           "ClassName": "PistolSuppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -570,6 +582,10 @@
          "Items": [
           {
            "ClassName": "Mag_1911_7Rnd"
+          },
+          {
+           "ClassName": "PistolSuppressor",
+           "Chance": 0.03
           }
          ]
         }

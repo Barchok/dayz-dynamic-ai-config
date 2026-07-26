@@ -545,6 +545,10 @@
           {
            "ClassName": "KobraOptic",
            "Chance": 0.2
+          },
+          {
+           "ClassName": "ImprovisedSuppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -569,6 +573,10 @@
           {
            "ClassName": "KobraOptic",
            "Chance": 0.2
+          },
+          {
+           "ClassName": "ImprovisedSuppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -589,6 +597,10 @@
          "Items": [
           {
            "ClassName": "Mag_AK74_30Rnd"
+          },
+          {
+           "ClassName": "ImprovisedSuppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -753,6 +765,10 @@
          "Items": [
           {
            "ClassName": "Mag_CZ75_15Rnd"
+          },
+          {
+           "ClassName": "PistolSuppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -773,6 +789,10 @@
          "Items": [
           {
            "ClassName": "Mag_Glock_15Rnd"
+          },
+          {
+           "ClassName": "PistolSuppressor",
+           "Chance": 0.03
           }
          ]
         }

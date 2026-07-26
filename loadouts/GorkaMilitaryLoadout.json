@@ -400,6 +400,10 @@
           {
            "ClassName": "KobraOptic",
            "Chance": 0.3
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -420,6 +424,10 @@
          "Items": [
           {
            "ClassName": "Mag_AKM_Drum75Rnd"
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -444,6 +452,10 @@
           {
            "ClassName": "KashtanOptic",
            "Chance": 0.25
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03
           }
          ]
         }
@@ -562,6 +574,10 @@
          "Items": [
           {
            "ClassName": "Mag_CZ75_15Rnd"
+          },
+          {
+           "ClassName": "PistolSuppressor",
+           "Chance": 0.03
           }
          ]
         }

@@ -470,6 +470,10 @@
              ]
             }
            ]
+          },
+          {
+           "ClassName": "M4_Suppressor",
+           "Chance": 0.15
           }
          ]
         }

@@ -394,6 +394,10 @@
           {
            "ClassName": "KobraOptic",
            "Chance": 0.3
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.15
           }
          ]
         }
@@ -418,6 +422,10 @@
           {
            "ClassName": "KobraOptic",
            "Chance": 0.3
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.15
           }
          ]
         }
@@ -438,6 +446,10 @@
          "Items": [
           {
            "ClassName": "Mag_AK74_30Rnd"
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.15
           }
          ]
         }
@@ -514,6 +526,110 @@
          ]
         }
        ]
+      },
+      {
+       "ClassName": "AK101",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK101_30Rnd"
+          },
+          {
+           "ClassName": "KobraOptic",
+           "Chance": 0.3
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.15
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "AK74",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK74_45Rnd"
+          },
+          {
+           "ClassName": "KobraOptic",
+           "Chance": 0.3
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.15
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "AKS74U",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK74_30Rnd"
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.15
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "ClassName": "SVD",
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_SVD_10Rnd"
+          },
+          {
+           "ClassName": "PSO1Optic",
+           "Chance": 0.5
+          }
+         ]
+        }
+       ]
       }
      ]
     }
@@ -571,6 +687,10 @@
          "Items": [
           {
            "ClassName": "Mag_CZ75_15Rnd"
+          },
+          {
+           "ClassName": "PistolSuppressor",
+           "Chance": 0.1
           }
          ]
         }
