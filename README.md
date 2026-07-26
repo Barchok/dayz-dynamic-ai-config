@@ -18,7 +18,7 @@ The result reads as *players*, not spawns: trends you can learn, never truths yo
 feel like your own bad call rather than a bot ambush.
 
 **What's inside:** a three-layer spawn model (regional gear tiers · POI encounters · gunfire response),
-ten hand-authored loadouts spanning drifter to spec-ops, faction infighting so AI fight each other and
+eleven hand-authored loadouts spanning drifter to spec-ops, faction infighting so AI fight each other and
 not just you, and a set of documented knobs to tune the whole thing to your taste. Every design choice
 below is explained, and several are verified against the mod's source rather than guessed at.
 
@@ -62,6 +62,7 @@ so you don't need theirs at runtime once the zones point at these.
 | `SpatialSettings.json` | `<profile>/ExpansionMod/AI/Spatial/SpatialSettings.json` |
 | `loadouts/*.json` | `<profile>/ExpansionMod/Loadouts/` |
 | `validate.py` | — run before deploying, see below |
+| `retune_locations.py` | — regenerates the Location layer, see below |
 
 **Run `./validate.py` before every deploy.** All eleven loadouts must be present in
 `<profile>/ExpansionMod/Loadouts/` — a loadout referenced by `SpatialSettings.json` that isn't on
@@ -140,14 +141,19 @@ anyone) varies between visits.
 
 1. **Rolls only happen while you are inside the trigger cylinder** — `CanSpawn()` returns false when
    `m_insiders.Count() == 0`. Approaching from outside does nothing.
-2. **It re-rolls every trigger tick**, not once per visit. So a *low* `Spatial_Chance` becomes a
-   **dwell** mechanic: passing through is usually safe, stopping to loot is what gets you found.
-   Because of this, `Spatial_Chance` is **derived, not hand-picked** — each POI has a target
-   *per-visit* occupancy and a realistic dwell time (glass + approach + loot), and the per-tick rate
-   is `1-(1-target)^(1/dwell)`. Consequence worth understanding: a sprawling airfield you spend 20
-   minutes clearing carries a *lower* per-tick chance than a village you cross in 8 — otherwise big
-   POIs would be permanently occupied purely because you linger there. What's tuned is the odds of
-   *an encounter per visit*, not per second.
+2. **It re-rolls once per server frame** — not once per visit, and not on a timer. Verified in
+   `Trigger.c`: the constructor sets `EntityEvent.FRAME`, and `EOnFrame` calls `UpdateInsiders()`,
+   which calls `StayStart()` **ungated** whenever anyone is inside. That reaches
+   `OnStayStartServerEvent` → `SpawnCheck()` → the roll. So `Spatial_Chance` is a *per-frame* hazard
+   rate, and **your server's FPS is the roll rate**. (`TIMEOUT = 1000` in that file is passed to
+   `UpdateInsiders` and never used — it is not a tick interval.)
+
+   Two consequences. First, `Spatial_Chance` is **derived, not hand-picked**: each POI gets a target
+   *per-visit* occupancy, and the per-frame rate is `1-exp(-h/(R·T))` for nominal frame rate `R` and
+   visit length `T` (see `retune_locations.py`). Second, a failed roll sets **no cooldown** —
+   `Spatial_TimerCheck` is only set after a successful spawn, and `SpawnCount == 0` doesn't set it
+   either — so standing in a trigger re-rolls indefinitely. That is why the *ceiling* is tuned
+   separately from the odds.
 3. **Trigger radius is deliberately large (420–560m) — bigger than scoping range.** This matters: if
    the radius were small you could glass a POI from a hill, see it empty (no rolls firing, because
    you're outside), walk in, and have AI materialise beside you. Instead you're already inside the
@@ -156,13 +162,29 @@ anyone) varies between visits.
 4. **Spawns land on fixed `Spatial_SpawnPosition` points** (a ring 60–135m around the POI centre,
    terrain-snapped, one picked at random). Not relative to you. Trade-off: no random pop-in, but the
    spots are learnable over time.
-5. **After a spawn** that variant is locked for its `Spatial_Timer` (16–35 min) *and* stays blocked
+5. **After a spawn** that variant is locked for its `Spatial_Timer` (40–90 min) *and* stays blocked
    while its patrol is alive — so a POI won't re-arm behind you.
+6. **The ceiling is structural, and it's the important one.** Because rolls never stop while you're
+   inside, a long firefight will eventually draw every variant at that POI. So what a POI can *ever*
+   field is capped by its variant list and `MinCount`/`MaxCount` — 4 at a quiet wilderness spot, 9 at
+   the top military magnet. Unlike the odds, this number doesn't move with frame rate.
 
-> **Calibration note:** the per-tick rate is the engine's `Trigger` default (the mod never sets one),
-> so the occupancy figures assume ~1 roll/sec. To measure it exactly, set `"Spatial_MinTimer": -1` —
-> a negative value trips the mod's hidden debug mode — and count the `Location Chance: … | random: …`
-> lines in the Expansion AI log while standing in a POI. Then set `Spatial_MinTimer` back to `15`.
+### Three dials, and which are frame-rate safe
+
+| Dial | Controls | Frame-rate dependent |
+|---|---|---|
+| `Spatial_Chance` | odds a POI is occupied on a normal visit | **yes** — scales with FPS |
+| `MinCount`/`MaxCount` + variant count | the ceiling a long fight can reach | no |
+| `Spatial_Timer` | how long a POI stays cleared | no — real minutes |
+
+Tuned at a nominal **50 fps** with a 5-minute visit. The odds are deliberately tolerant of drift —
+±20% FPS moves top-POI occupancy from 70% to 61–76%, which is the same ballpark. If your server runs
+much slower or faster than that, change `R` in `retune_locations.py` and re-run.
+
+> **To measure your actual roll rate:** it is simply your server FPS, so read that from the `.RPT`.
+> To confirm end-to-end, set `"Spatial_MinTimer": -1` — a negative value trips the mod's hidden debug
+> mode — and count `Location Chance: … | random: …` lines per second while standing in a POI,
+> dividing by the number of variants at that POI. Then set `Spatial_MinTimer` back to `15`.
 
 Tier → region (following the iZurvive tier overlay):
 
@@ -226,10 +248,11 @@ All in `SpatialSettings.json` root unless noted.
 | `HuntMode` (global) | 5 | Roaming behaviour (see below). |
 | `Spatial_Weight` (per Group) | Drifter 18 / Raider 40 / Survivor 20 / West 5 / East 6 / Elite 2 / Militia(East) 4 | Tier mix of map-wide roamers. Drifter cut 42→18 after "too many bambis up north" — melee freshies now ~19% of roamers (was 38%), so the rare wilderness spawn skews armed. |
 | `Spatial_Chance` (per Group roamer) | 0.25 | Chance a roaming wave actually spawns. 1.0 was "always someone in the open"; 0.25 = ~one wilderness patrol/100min — rare but ever-present tail. |
-| `Spatial_Chance` (per Point) | 0.50–0.60 by tier | Chance a regional zone produces a patrol that wave. Rolls per wave, so nowhere is permanently dead or permanently occupied. |
+| `Spatial_Chance` (per Point) | 0.50–0.60 by tier | Chance a regional zone produces a patrol that wave. Rolls per wave, so nowhere is permanently dead or permanently occupied. Unrelated to the Location layer's per-frame roll. |
+| `Spatial_Chance` (per Location) | derived, ~3e-6 to 3e-5 | **Per server frame**, not per second. Don't hand-edit — regenerate with `retune_locations.py`. |
 | `Locations_Enabled` / `Audio_Enabled` | 1 / 1 | Enable the POI and noise-response layers. |
 | `Spatial_Sensitivity` (per Audio) | 50 | Noise threshold. Firing a weapon scores **1000**; movement is single digits — so 50 = **gunfire only**. Lower it to react to sprinting. |
-| `Spatial_Timer` (Location/Audio) | 20–30 (min) | Cooldown before that trigger can fire again. Stored in minutes, converted ×60000 internally. A trigger also won't re-fire while its previous patrol is still alive. |
+| `Spatial_Timer` (Location/Audio) | 40–90 (min) | Cooldown before that trigger can fire again. Stored in minutes, converted ×60000 internally. A trigger also won't re-fire while its previous patrol is still alive. **This is the only occupancy dial that frame rate cannot affect** — a trigger on cooldown never fires. |
 | `Spatial_SpawnMode` (Location/Audio) | 0 | 0 = spawn at **one random** listed position (unpredictable). 1 = spawn a patrol at **every** listed position (full garrison — multiplies AI count). |
 | `Spatial_MinAccuracy` / `Spatial_MaxAccuracy` | per tier | 0–1, **higher = deadlier**. Drifter 0.22–0.45 → Elite 0.55–0.78, hotspots up to 0.80. Ceiling held at 0.80 (0.85+ = aimbotty); wide min–max keeps good/bad shots. |
 | `MessageType` | 0 | 0 = silent (no chat/popup). 1–2 chat, 3–4 popup, 5 popup w/ GPS. |

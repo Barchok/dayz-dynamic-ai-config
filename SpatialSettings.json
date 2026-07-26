@@ -659,15 +659,15 @@
    "Spatial_Name": "P01_1",
    "Spatial_TriggerRadius": 560.0,
    "Spatial_ZoneLoadout": "EliteTierLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000191,
+   "Spatial_Chance": 2.089e-05,
    "Spatial_MinAccuracy": 0.52,
    "Spatial_MaxAccuracy": 0.8,
-   "Spatial_Timer": 30.0,
+   "Spatial_Timer": 55.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -702,15 +702,15 @@
    "Spatial_Name": "P01_2",
    "Spatial_TriggerRadius": 560.0,
    "Spatial_ZoneLoadout": "WestMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
+   "Spatial_MinCount": 1,
    "Spatial_MaxCount": 3,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000243,
+   "Spatial_Chance": 2.507e-05,
    "Spatial_MinAccuracy": 0.48,
    "Spatial_MaxAccuracy": 0.74,
-   "Spatial_Timer": 28.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -745,15 +745,15 @@
    "Spatial_Name": "P01_3",
    "Spatial_TriggerRadius": 560.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00024,
+   "Spatial_Chance": 1.88e-05,
    "Spatial_MinAccuracy": 0.44,
    "Spatial_MaxAccuracy": 0.7,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -789,14 +789,14 @@
    "Spatial_TriggerRadius": 560.0,
    "Spatial_ZoneLoadout": "EastMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 6,
    "Spatial_Faction": "East",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 8.9e-05,
+   "Spatial_Chance": 1.044e-05,
    "Spatial_MinAccuracy": 0.46,
    "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 32.0,
+   "Spatial_Timer": 60.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -828,18 +828,61 @@
    ]
   },
   {
+   "Spatial_Name": "P01_SNIPER",
+   "Spatial_TriggerRadius": 560.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 4.13e-06,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 90.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    4600.0,
+    200.0,
+    10400.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     4434.9,
+     200.0,
+     10440.7
+    ],
+    [
+     4559.3,
+     200.0,
+     10234.9
+    ],
+    [
+     4765.1,
+     200.0,
+     10359.3
+    ],
+    [
+     4640.7,
+     200.0,
+     10565.1
+    ]
+   ]
+  },
+  {
    "Spatial_Name": "P02_1",
    "Spatial_TriggerRadius": 534.0,
    "Spatial_ZoneLoadout": "EliteTierLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.0002,
+   "Spatial_Chance": 1.306e-05,
    "Spatial_MinAccuracy": 0.52,
    "Spatial_MaxAccuracy": 0.8,
-   "Spatial_Timer": 30.0,
+   "Spatial_Timer": 55.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -874,15 +917,15 @@
    "Spatial_Name": "P02_2",
    "Spatial_TriggerRadius": 534.0,
    "Spatial_ZoneLoadout": "WestMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
+   "Spatial_MinCount": 1,
    "Spatial_MaxCount": 3,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000261,
+   "Spatial_Chance": 1.567e-05,
    "Spatial_MinAccuracy": 0.48,
    "Spatial_MaxAccuracy": 0.74,
-   "Spatial_Timer": 28.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -917,15 +960,15 @@
    "Spatial_Name": "P02_3",
    "Spatial_TriggerRadius": 534.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000209,
+   "Spatial_Chance": 1.175e-05,
    "Spatial_MinAccuracy": 0.44,
    "Spatial_MaxAccuracy": 0.7,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -961,14 +1004,14 @@
    "Spatial_TriggerRadius": 534.0,
    "Spatial_ZoneLoadout": "EastMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 6,
    "Spatial_Faction": "East",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.0001,
+   "Spatial_Chance": 6.53e-06,
    "Spatial_MinAccuracy": 0.46,
    "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 32.0,
+   "Spatial_Timer": 60.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1000,18 +1043,61 @@
    ]
   },
   {
+   "Spatial_Name": "P02_SNIPER",
+   "Spatial_TriggerRadius": 534.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 4.13e-06,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 90.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    1700.0,
+    340.0,
+    13800.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     1534.9,
+     340.0,
+     13840.7
+    ],
+    [
+     1659.3,
+     340.0,
+     13634.9
+    ],
+    [
+     1865.1,
+     340.0,
+     13759.3
+    ],
+    [
+     1740.7,
+     340.0,
+     13965.1
+    ]
+   ]
+  },
+  {
    "Spatial_Name": "P03_1",
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "WestMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000245,
+   "Spatial_Chance": 1.611e-05,
    "Spatial_MinAccuracy": 0.46,
    "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1046,15 +1132,15 @@
    "Spatial_Name": "P03_2",
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "SovietMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000314,
+   "Spatial_Chance": 1.773e-05,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1090,14 +1176,14 @@
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 3,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00025,
+   "Spatial_Chance": 1.289e-05,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1133,14 +1219,14 @@
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000181,
+   "Spatial_Chance": 9.67e-06,
    "Spatial_MinAccuracy": 0.36,
    "Spatial_MaxAccuracy": 0.6,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1172,18 +1258,61 @@
    ]
   },
   {
+   "Spatial_Name": "P03_SNIPER",
+   "Spatial_TriggerRadius": 510.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 4.13e-06,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 90.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    3800.0,
+    250.0,
+    8700.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     3634.9,
+     250.0,
+     8740.7
+    ],
+    [
+     3759.3,
+     250.0,
+     8534.9
+    ],
+    [
+     3965.1,
+     250.0,
+     8659.3
+    ],
+    [
+     3840.7,
+     250.0,
+     8865.1
+    ]
+   ]
+  },
+  {
    "Spatial_Name": "P04_1",
    "Spatial_TriggerRadius": 522.0,
    "Spatial_ZoneLoadout": "EastMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "East",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000281,
+   "Spatial_Chance": 1.746e-05,
    "Spatial_MinAccuracy": 0.48,
    "Spatial_MaxAccuracy": 0.74,
-   "Spatial_Timer": 28.0,
+   "Spatial_Timer": 52.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1218,15 +1347,15 @@
    "Spatial_Name": "P04_2",
    "Spatial_TriggerRadius": 522.0,
    "Spatial_ZoneLoadout": "SovietMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "East",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00031,
+   "Spatial_Chance": 1.455e-05,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1266,10 +1395,10 @@
    "Spatial_HuntMode": 6,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000138,
+   "Spatial_Chance": 8.73e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1301,18 +1430,61 @@
    ]
   },
   {
+   "Spatial_Name": "P04_SNIPER",
+   "Spatial_TriggerRadius": 522.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 4.13e-06,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 90.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    11800.0,
+    150.0,
+    12300.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     11634.9,
+     150.0,
+     12340.7
+    ],
+    [
+     11759.3,
+     150.0,
+     12134.9
+    ],
+    [
+     11965.1,
+     150.0,
+     12259.3
+    ],
+    [
+     11840.7,
+     150.0,
+     12465.1
+    ]
+   ]
+  },
+  {
    "Spatial_Name": "P05_1",
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "WestMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000139,
+   "Spatial_Chance": 8.06e-06,
    "Spatial_MinAccuracy": 0.46,
    "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1347,15 +1519,15 @@
    "Spatial_Name": "P05_2",
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "SovietMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000176,
+   "Spatial_Chance": 8.86e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1391,14 +1563,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 3,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000167,
+   "Spatial_Chance": 6.45e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1434,14 +1606,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000111,
+   "Spatial_Chance": 4.83e-06,
    "Spatial_MinAccuracy": 0.36,
    "Spatial_MaxAccuracy": 0.6,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1476,15 +1648,15 @@
    "Spatial_Name": "P06_1",
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "WestMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000248,
+   "Spatial_Chance": 1.432e-05,
    "Spatial_MinAccuracy": 0.46,
    "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1519,15 +1691,15 @@
    "Spatial_Name": "P06_2",
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "SovietMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000323,
+   "Spatial_Chance": 1.576e-05,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1563,14 +1735,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 3,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000226,
+   "Spatial_Chance": 1.146e-05,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1606,14 +1778,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000199,
+   "Spatial_Chance": 8.59e-06,
    "Spatial_MinAccuracy": 0.36,
    "Spatial_MaxAccuracy": 0.6,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1645,6 +1817,49 @@
    ]
   },
   {
+   "Spatial_Name": "P06_SNIPER",
+   "Spatial_TriggerRadius": 470.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 4.13e-06,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 90.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    4900.0,
+    20.0,
+    2500.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     4734.9,
+     20.0,
+     2540.7
+    ],
+    [
+     4859.3,
+     20.0,
+     2334.9
+    ],
+    [
+     5065.1,
+     20.0,
+     2459.3
+    ],
+    [
+     4940.7,
+     20.0,
+     2665.1
+    ]
+   ]
+  },
+  {
    "Spatial_Name": "P07_1",
    "Spatial_TriggerRadius": 420.0,
    "Spatial_ZoneLoadout": "HazmatLoadout.json",
@@ -1653,10 +1868,10 @@
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000564,
+   "Spatial_Chance": 1.205e-05,
    "Spatial_MinAccuracy": 0.45,
    "Spatial_MaxAccuracy": 0.7,
-   "Spatial_Timer": 45.0,
+   "Spatial_Timer": 60.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1696,10 +1911,10 @@
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000179,
+   "Spatial_Chance": 3.62e-06,
    "Spatial_MinAccuracy": 0.5,
    "Spatial_MaxAccuracy": 0.78,
-   "Spatial_Timer": 35.0,
+   "Spatial_Timer": 75.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1739,10 +1954,10 @@
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00032,
+   "Spatial_Chance": 8.44e-06,
    "Spatial_MinAccuracy": 0.45,
    "Spatial_MaxAccuracy": 0.7,
-   "Spatial_Timer": 45.0,
+   "Spatial_Timer": 60.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1782,10 +1997,10 @@
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000107,
+   "Spatial_Chance": 2.53e-06,
    "Spatial_MinAccuracy": 0.5,
    "Spatial_MaxAccuracy": 0.78,
-   "Spatial_Timer": 35.0,
+   "Spatial_Timer": 75.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1825,10 +2040,10 @@
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000365,
+   "Spatial_Chance": 1.831e-05,
    "Spatial_MinAccuracy": 0.34,
    "Spatial_MaxAccuracy": 0.58,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1864,14 +2079,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "SurvivorTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000278,
+   "Spatial_Chance": 1.665e-05,
    "Spatial_MinAccuracy": 0.3,
    "Spatial_MaxAccuracy": 0.54,
-   "Spatial_Timer": 18.0,
+   "Spatial_Timer": 42.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1907,14 +2122,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "HunterTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000157,
+   "Spatial_Chance": 8.32e-06,
    "Spatial_MinAccuracy": 0.38,
    "Spatial_MaxAccuracy": 0.62,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1950,14 +2165,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "CivilianTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000196,
+   "Spatial_Chance": 9.99e-06,
    "Spatial_MinAccuracy": 0.24,
    "Spatial_MaxAccuracy": 0.48,
-   "Spatial_Timer": 16.0,
+   "Spatial_Timer": 40.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -1997,10 +2212,10 @@
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000403,
+   "Spatial_Chance": 2.154e-05,
    "Spatial_MinAccuracy": 0.34,
    "Spatial_MaxAccuracy": 0.58,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2036,14 +2251,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "SurvivorTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000376,
+   "Spatial_Chance": 1.958e-05,
    "Spatial_MinAccuracy": 0.3,
    "Spatial_MaxAccuracy": 0.54,
-   "Spatial_Timer": 18.0,
+   "Spatial_Timer": 42.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2079,14 +2294,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "HunterTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000168,
+   "Spatial_Chance": 9.79e-06,
    "Spatial_MinAccuracy": 0.38,
    "Spatial_MaxAccuracy": 0.62,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2122,14 +2337,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "CivilianTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000208,
+   "Spatial_Chance": 1.175e-05,
    "Spatial_MinAccuracy": 0.24,
    "Spatial_MaxAccuracy": 0.48,
-   "Spatial_Timer": 16.0,
+   "Spatial_Timer": 40.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2164,15 +2379,15 @@
    "Spatial_Name": "P11_1",
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "EastMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "East",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000267,
+   "Spatial_Chance": 1.477e-05,
    "Spatial_MinAccuracy": 0.48,
    "Spatial_MaxAccuracy": 0.74,
-   "Spatial_Timer": 28.0,
+   "Spatial_Timer": 52.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2207,15 +2422,15 @@
    "Spatial_Name": "P11_2",
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "SovietMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "East",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000301,
+   "Spatial_Chance": 1.231e-05,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2255,10 +2470,10 @@
    "Spatial_HuntMode": 6,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00015,
+   "Spatial_Chance": 7.39e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2290,6 +2505,49 @@
    ]
   },
   {
+   "Spatial_Name": "P11_SNIPER",
+   "Spatial_TriggerRadius": 496.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 4.13e-06,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 90.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    11900.0,
+    60.0,
+    14300.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     11734.9,
+     60.0,
+     14340.7
+    ],
+    [
+     11859.3,
+     60.0,
+     14134.9
+    ],
+    [
+     12065.1,
+     60.0,
+     14259.3
+    ],
+    [
+     11940.7,
+     60.0,
+     14465.1
+    ]
+   ]
+  },
+  {
    "Spatial_Name": "P12_1",
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "HunterTierLoadout.json",
@@ -2298,10 +2556,10 @@
    "Spatial_HuntMode": 6,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000354,
+   "Spatial_Chance": 1.044e-05,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2337,14 +2595,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00031,
+   "Spatial_Chance": 7.31e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2380,14 +2638,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000295,
+   "Spatial_Chance": 7.31e-06,
    "Spatial_MinAccuracy": 0.36,
    "Spatial_MaxAccuracy": 0.6,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2422,15 +2680,15 @@
    "Spatial_Name": "P13_1",
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "WestMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "West",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000104,
+   "Spatial_Chance": 5.37e-06,
    "Spatial_MinAccuracy": 0.46,
    "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 26.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2465,15 +2723,15 @@
    "Spatial_Name": "P13_2",
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "SovietMilitaryLoadout.json",
-   "Spatial_MinCount": 2,
-   "Spatial_MaxCount": 3,
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 2,
    "Spatial_HuntMode": 4,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000128,
+   "Spatial_Chance": 5.91e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2509,14 +2767,14 @@
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 3,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000108,
+   "Spatial_Chance": 4.3e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2552,14 +2810,14 @@
    "Spatial_TriggerRadius": 510.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 7.4e-05,
+   "Spatial_Chance": 3.22e-06,
    "Spatial_MinAccuracy": 0.36,
    "Spatial_MaxAccuracy": 0.6,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2591,6 +2849,49 @@
    ]
   },
   {
+   "Spatial_Name": "P13_SNIPER",
+   "Spatial_TriggerRadius": 510.0,
+   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
+   "Spatial_MinCount": 1,
+   "Spatial_MaxCount": 1,
+   "Spatial_HuntMode": 4,
+   "Spatial_Faction": "Mercenaries",
+   "Spatial_Lootable": 1,
+   "Spatial_Chance": 4.13e-06,
+   "Spatial_MinAccuracy": 0.5,
+   "Spatial_MaxAccuracy": 0.72,
+   "Spatial_Timer": 90.0,
+   "Spatial_SpawnMode": 0,
+   "Spatial_UnlimitedReload": 0,
+   "Spatial_TriggerPosition": [
+    7500.0,
+    200.0,
+    14500.0
+   ],
+   "Spatial_SpawnPosition": [
+    [
+     7334.9,
+     200.0,
+     14540.7
+    ],
+    [
+     7459.3,
+     200.0,
+     14334.9
+    ],
+    [
+     7665.1,
+     200.0,
+     14459.3
+    ],
+    [
+     7540.7,
+     200.0,
+     14665.1
+    ]
+   ]
+  },
+  {
    "Spatial_Name": "P14_1",
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "HunterTierLoadout.json",
@@ -2599,10 +2900,10 @@
    "Spatial_HuntMode": 6,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000243,
+   "Spatial_Chance": 5.87e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2638,14 +2939,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000208,
+   "Spatial_Chance": 4.11e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2681,14 +2982,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000226,
+   "Spatial_Chance": 4.11e-06,
    "Spatial_MinAccuracy": 0.36,
    "Spatial_MaxAccuracy": 0.6,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2728,10 +3029,10 @@
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000709,
+   "Spatial_Chance": 2.852e-05,
    "Spatial_MinAccuracy": 0.24,
    "Spatial_MaxAccuracy": 0.48,
-   "Spatial_Timer": 16.0,
+   "Spatial_Timer": 40.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2767,14 +3068,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "SurvivorTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000512,
+   "Spatial_Chance": 2.377e-05,
    "Spatial_MinAccuracy": 0.3,
    "Spatial_MaxAccuracy": 0.54,
-   "Spatial_Timer": 18.0,
+   "Spatial_Timer": 42.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2810,14 +3111,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000375,
+   "Spatial_Chance": 1.664e-05,
    "Spatial_MinAccuracy": 0.34,
    "Spatial_MaxAccuracy": 0.58,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2857,10 +3158,10 @@
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000487,
+   "Spatial_Chance": 2.463e-05,
    "Spatial_MinAccuracy": 0.24,
    "Spatial_MaxAccuracy": 0.48,
-   "Spatial_Timer": 16.0,
+   "Spatial_Timer": 40.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2896,14 +3197,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "SurvivorTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00042,
+   "Spatial_Chance": 2.053e-05,
    "Spatial_MinAccuracy": 0.3,
    "Spatial_MaxAccuracy": 0.54,
-   "Spatial_Timer": 18.0,
+   "Spatial_Timer": 42.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2939,14 +3240,14 @@
    "Spatial_TriggerRadius": 496.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000288,
+   "Spatial_Chance": 1.437e-05,
    "Spatial_MinAccuracy": 0.34,
    "Spatial_MaxAccuracy": 0.58,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -2986,10 +3287,10 @@
    "Spatial_HuntMode": 6,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000195,
+   "Spatial_Chance": 5.22e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -3025,14 +3326,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "GorkaMilitaryLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000177,
+   "Spatial_Chance": 3.66e-06,
    "Spatial_MinAccuracy": 0.42,
    "Spatial_MaxAccuracy": 0.66,
-   "Spatial_Timer": 24.0,
+   "Spatial_Timer": 50.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -3068,14 +3369,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "RaiderLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.00016,
+   "Spatial_Chance": 3.66e-06,
    "Spatial_MinAccuracy": 0.36,
    "Spatial_MaxAccuracy": 0.6,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -3115,10 +3416,10 @@
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000292,
+   "Spatial_Chance": 1.292e-05,
    "Spatial_MinAccuracy": 0.34,
    "Spatial_MaxAccuracy": 0.58,
-   "Spatial_Timer": 20.0,
+   "Spatial_Timer": 45.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -3154,14 +3455,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "SurvivorTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000267,
+   "Spatial_Chance": 1.175e-05,
    "Spatial_MinAccuracy": 0.3,
    "Spatial_MaxAccuracy": 0.54,
-   "Spatial_Timer": 18.0,
+   "Spatial_Timer": 42.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -3197,14 +3498,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "HunterTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Mercenaries",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000128,
+   "Spatial_Chance": 5.87e-06,
    "Spatial_MinAccuracy": 0.38,
    "Spatial_MaxAccuracy": 0.62,
-   "Spatial_Timer": 22.0,
+   "Spatial_Timer": 48.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -3240,14 +3541,14 @@
    "Spatial_TriggerRadius": 470.0,
    "Spatial_ZoneLoadout": "CivilianTierLoadout.json",
    "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 2,
+   "Spatial_MaxCount": 1,
    "Spatial_HuntMode": 5,
    "Spatial_Faction": "Raiders",
    "Spatial_Lootable": 1,
-   "Spatial_Chance": 0.000174,
+   "Spatial_Chance": 7.05e-06,
    "Spatial_MinAccuracy": 0.24,
    "Spatial_MaxAccuracy": 0.48,
-   "Spatial_Timer": 16.0,
+   "Spatial_Timer": 40.0,
    "Spatial_SpawnMode": 0,
    "Spatial_UnlimitedReload": 0,
    "Spatial_TriggerPosition": [
@@ -3275,307 +3576,6 @@
      9116.5,
      150.0,
      8668.2
-    ]
-   ]
-  },
-  {
-   "Spatial_Name": "P01_SNIPER",
-   "Spatial_TriggerRadius": 560.0,
-   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
-   "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 1,
-   "Spatial_HuntMode": 4,
-   "Spatial_Faction": "Mercenaries",
-   "Spatial_Lootable": 1,
-   "Spatial_Chance": 5.16e-05,
-   "Spatial_MinAccuracy": 0.5,
-   "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 60.0,
-   "Spatial_SpawnMode": 0,
-   "Spatial_UnlimitedReload": 0,
-   "Spatial_TriggerPosition": [
-    4600.0,
-    200.0,
-    10400.0
-   ],
-   "Spatial_SpawnPosition": [
-    [
-     4830.3,
-     200.0,
-     10497.4
-    ],
-    [
-     4502.6,
-     200.0,
-     10630.3
-    ],
-    [
-     4369.7,
-     200.0,
-     10302.6
-    ],
-    [
-     4697.4,
-     200.0,
-     10169.7
-    ]
-   ]
-  },
-  {
-   "Spatial_Name": "P02_SNIPER",
-   "Spatial_TriggerRadius": 534.0,
-   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
-   "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 1,
-   "Spatial_HuntMode": 4,
-   "Spatial_Faction": "Mercenaries",
-   "Spatial_Lootable": 1,
-   "Spatial_Chance": 5.7e-05,
-   "Spatial_MinAccuracy": 0.5,
-   "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 60.0,
-   "Spatial_SpawnMode": 0,
-   "Spatial_UnlimitedReload": 0,
-   "Spatial_TriggerPosition": [
-    1700.0,
-    340.0,
-    13800.0
-   ],
-   "Spatial_SpawnPosition": [
-    [
-     1930.3,
-     340.0,
-     13897.4
-    ],
-    [
-     1602.6,
-     340.0,
-     14030.3
-    ],
-    [
-     1469.7,
-     340.0,
-     13702.6
-    ],
-    [
-     1797.4,
-     340.0,
-     13569.7
-    ]
-   ]
-  },
-  {
-   "Spatial_Name": "P03_SNIPER",
-   "Spatial_TriggerRadius": 510.0,
-   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
-   "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 1,
-   "Spatial_HuntMode": 4,
-   "Spatial_Faction": "Mercenaries",
-   "Spatial_Lootable": 1,
-   "Spatial_Chance": 6.58e-05,
-   "Spatial_MinAccuracy": 0.5,
-   "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 60.0,
-   "Spatial_SpawnMode": 0,
-   "Spatial_UnlimitedReload": 0,
-   "Spatial_TriggerPosition": [
-    3800.0,
-    250.0,
-    8700.0
-   ],
-   "Spatial_SpawnPosition": [
-    [
-     4030.3,
-     250.0,
-     8797.4
-    ],
-    [
-     3702.6,
-     250.0,
-     8930.3
-    ],
-    [
-     3569.7,
-     250.0,
-     8602.6
-    ],
-    [
-     3897.4,
-     250.0,
-     8469.7
-    ]
-   ]
-  },
-  {
-   "Spatial_Name": "P04_SNIPER",
-   "Spatial_TriggerRadius": 522.0,
-   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
-   "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 1,
-   "Spatial_HuntMode": 4,
-   "Spatial_Faction": "Mercenaries",
-   "Spatial_Lootable": 1,
-   "Spatial_Chance": 5.83e-05,
-   "Spatial_MinAccuracy": 0.5,
-   "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 60.0,
-   "Spatial_SpawnMode": 0,
-   "Spatial_UnlimitedReload": 0,
-   "Spatial_TriggerPosition": [
-    11800.0,
-    150.0,
-    12300.0
-   ],
-   "Spatial_SpawnPosition": [
-    [
-     12030.3,
-     150.0,
-     12397.4
-    ],
-    [
-     11702.6,
-     150.0,
-     12530.3
-    ],
-    [
-     11569.7,
-     150.0,
-     12202.6
-    ],
-    [
-     11897.4,
-     150.0,
-     12069.7
-    ]
-   ]
-  },
-  {
-   "Spatial_Name": "P06_SNIPER",
-   "Spatial_TriggerRadius": 470.0,
-   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
-   "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 1,
-   "Spatial_HuntMode": 4,
-   "Spatial_Faction": "Mercenaries",
-   "Spatial_Lootable": 1,
-   "Spatial_Chance": 6.8e-05,
-   "Spatial_MinAccuracy": 0.5,
-   "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 60.0,
-   "Spatial_SpawnMode": 0,
-   "Spatial_UnlimitedReload": 0,
-   "Spatial_TriggerPosition": [
-    4900.0,
-    20.0,
-    2500.0
-   ],
-   "Spatial_SpawnPosition": [
-    [
-     5130.3,
-     20.0,
-     2597.4
-    ],
-    [
-     4802.6,
-     20.0,
-     2730.3
-    ],
-    [
-     4669.7,
-     20.0,
-     2402.6
-    ],
-    [
-     4997.4,
-     20.0,
-     2269.7
-    ]
-   ]
-  },
-  {
-   "Spatial_Name": "P11_SNIPER",
-   "Spatial_TriggerRadius": 496.0,
-   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
-   "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 1,
-   "Spatial_HuntMode": 4,
-   "Spatial_Faction": "Mercenaries",
-   "Spatial_Lootable": 1,
-   "Spatial_Chance": 5.94e-05,
-   "Spatial_MinAccuracy": 0.5,
-   "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 60.0,
-   "Spatial_SpawnMode": 0,
-   "Spatial_UnlimitedReload": 0,
-   "Spatial_TriggerPosition": [
-    11900.0,
-    60.0,
-    14300.0
-   ],
-   "Spatial_SpawnPosition": [
-    [
-     12130.3,
-     60.0,
-     14397.4
-    ],
-    [
-     11802.6,
-     60.0,
-     14530.3
-    ],
-    [
-     11669.7,
-     60.0,
-     14202.6
-    ],
-    [
-     11997.4,
-     60.0,
-     14069.7
-    ]
-   ]
-  },
-  {
-   "Spatial_Name": "P13_SNIPER",
-   "Spatial_TriggerRadius": 510.0,
-   "Spatial_ZoneLoadout": "GhillieSniperLoadout.json",
-   "Spatial_MinCount": 1,
-   "Spatial_MaxCount": 1,
-   "Spatial_HuntMode": 4,
-   "Spatial_Faction": "Mercenaries",
-   "Spatial_Lootable": 1,
-   "Spatial_Chance": 5.08e-05,
-   "Spatial_MinAccuracy": 0.5,
-   "Spatial_MaxAccuracy": 0.72,
-   "Spatial_Timer": 60.0,
-   "Spatial_SpawnMode": 0,
-   "Spatial_UnlimitedReload": 0,
-   "Spatial_TriggerPosition": [
-    7500.0,
-    200.0,
-    14500.0
-   ],
-   "Spatial_SpawnPosition": [
-    [
-     7730.3,
-     200.0,
-     14597.4
-    ],
-    [
-     7402.6,
-     200.0,
-     14730.3
-    ],
-    [
-     7269.7,
-     200.0,
-     14402.6
-    ],
-    [
-     7597.4,
-     200.0,
-     14269.7
     ]
    ]
   }
