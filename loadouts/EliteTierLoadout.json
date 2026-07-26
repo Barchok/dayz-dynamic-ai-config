@@ -12,33 +12,39 @@
    "Items": [
     {
      "ClassName": "USMCJacket_Woodland",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "USMCJacket_Desert",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "GorkaEJacket_Flat",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -47,33 +53,39 @@
    "Items": [
     {
      "ClassName": "USMCPants_Woodland",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "USMCPants_Desert",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "GorkaPants_Flat",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -82,33 +94,39 @@
    "Items": [
     {
      "ClassName": "CombatBoots_Black",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "CombatBoots_Green",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "CombatBoots_Beige",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -117,23 +135,27 @@
    "Items": [
     {
      "ClassName": "TacticalGloves_Black",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "TacticalGloves_Green",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -142,13 +164,15 @@
    "Items": [
     {
      "ClassName": "MilitaryBelt",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -157,6 +181,7 @@
    "Items": [
     {
      "ClassName": "Mich2001Helmet",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
@@ -183,35 +208,43 @@
            "SlotName": "",
            "Items": [
             {
-             "ClassName": "Battery9V"
+             "ClassName": "Battery9V",
+             "Chance": 1.0,
+             "InventoryCargo": []
             }
            ]
           }
-         ]
+         ],
+         "InventoryCargo": []
         }
        ]
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "BallisticHelmet_Black",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     },
     {
      "ClassName": "BallisticHelmet_Green",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
        "Max": 1.0,
        "Zone": ""
       }
-     ]
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -220,6 +253,7 @@
    "Items": [
     {
      "ClassName": "PlateCarrierVest",
+     "Chance": 1.0,
      "Health": [
       {
        "Min": 0.7,
@@ -240,7 +274,8 @@
            "Max": 1.0,
            "Zone": ""
           }
-         ]
+         ],
+         "InventoryCargo": []
         },
         {
          "ClassName": "PlateCarrierHolster",
@@ -251,11 +286,13 @@
            "Max": 1.0,
            "Zone": ""
           }
-         ]
+         ],
+         "InventoryCargo": []
         }
        ]
       }
-     ]
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -275,15 +312,18 @@
      "InventoryCargo": [
       {
        "ClassName": "Mag_STANAG_30Rnd",
-       "Chance": 0.6
+       "Chance": 0.6,
+       "InventoryCargo": []
       },
       {
        "ClassName": "Morphine",
-       "Chance": 0.3
+       "Chance": 0.3,
+       "InventoryCargo": []
       },
       {
        "ClassName": "SalineBagIV",
-       "Chance": 0.15
+       "Chance": 0.15,
+       "InventoryCargo": []
       },
       {
        "ClassName": "Ammo_556x45",
@@ -291,7 +331,8 @@
        "Quantity": {
         "Min": 0.4,
         "Max": 1.0
-       }
+       },
+       "InventoryCargo": []
       }
      ]
     }
@@ -301,27 +342,33 @@
  "InventoryCargo": [
   {
    "ClassName": "BandageDressing",
-   "Chance": 0.6
+   "Chance": 0.6,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Morphine",
-   "Chance": 0.25
+   "Chance": 0.25,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Battery9V",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "TacticalBaconCan",
-   "Chance": 0.45
+   "Chance": 0.45,
+   "InventoryCargo": []
   },
   {
    "ClassName": "BakedBeansCan",
-   "Chance": 0.4
+   "Chance": 0.4,
+   "InventoryCargo": []
   },
   {
    "ClassName": "PeachesCan",
-   "Chance": 0.35
+   "Chance": 0.35,
+   "InventoryCargo": []
   },
   {
    "ClassName": "WaterBottle",
@@ -329,100 +376,122 @@
    "Quantity": {
     "Min": 0.3,
     "Max": 1.0
-   }
+   },
+   "InventoryCargo": []
   },
   {
    "ClassName": "SodaCan_Cola",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "BandageDressing",
-   "Chance": 0.8
+   "Chance": 0.8,
+   "InventoryCargo": []
   },
   {
    "ClassName": "TetracyclineAntibiotics",
-   "Chance": 0.35
+   "Chance": 0.35,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Morphine",
-   "Chance": 0.35
+   "Chance": 0.35,
+   "InventoryCargo": []
   },
   {
    "ClassName": "SalineBagIV",
-   "Chance": 0.25
+   "Chance": 0.25,
+   "InventoryCargo": []
   },
   {
    "ClassName": "PainkillerTablets",
-   "Chance": 0.4
+   "Chance": 0.4,
+   "InventoryCargo": []
   },
   {
    "ClassName": "DisinfectantSpray",
-   "Chance": 0.25
+   "Chance": 0.25,
+   "InventoryCargo": []
   },
   {
    "ClassName": "WeaponCleaningKit",
-   "Chance": 0.45
+   "Chance": 0.45,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Screwdriver",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "CombatKnife",
-   "Chance": 0.4
+   "Chance": 0.4,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Compass",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Matchbox",
-   "Chance": 0.35
+   "Chance": 0.35,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Whetstone",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "M67Grenade",
-   "Chance": 0.35
+   "Chance": 0.35,
+   "InventoryCargo": []
   },
   {
    "ClassName": "RGD5Grenade",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Chemlight_Red",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Roadflare",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Rangefinder",
-   "Chance": 0.15
+   "Chance": 0.15,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Binoculars",
-   "Chance": 0.3
+   "Chance": 0.3,
+   "InventoryCargo": []
   },
   {
    "ClassName": "Battery9V",
-   "Chance": 0.4
+   "Chance": 0.4,
+   "InventoryCargo": []
   }
  ],
  "ConstructionPartsBuilt": [],
  "Sets": [
   {
    "ClassName": "PRIMARY",
-   "Chance": 1.0,
+   "Chance": 0.82,
    "InventoryAttachments": [
     {
      "SlotName": "Shoulder",
      "Items": [
       {
        "ClassName": "M4A1",
+       "Chance": 1.0,
        "Health": [
         {
          "Min": 0.7,
@@ -435,27 +504,34 @@
          "SlotName": "",
          "Items": [
           {
-           "ClassName": "Mag_STANAG_30Rnd"
+           "ClassName": "Mag_STANAG_30Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": []
           },
           {
            "ClassName": "M4_MPBttstck",
-           "Chance": 0.5
+           "Chance": 0.5,
+           "InventoryCargo": []
           },
           {
            "ClassName": "M4_OEBttstck",
-           "Chance": 0.5
+           "Chance": 0.5,
+           "InventoryCargo": []
           },
           {
            "ClassName": "M4_RISHndgrd",
-           "Chance": 0.6
+           "Chance": 0.6,
+           "InventoryCargo": []
           },
           {
            "ClassName": "M4_PlasticHndgrd",
-           "Chance": 0.4
+           "Chance": 0.4,
+           "InventoryCargo": []
           },
           {
            "ClassName": "ACOGOptic",
-           "Chance": 0.35
+           "Chance": 0.35,
+           "InventoryCargo": []
           },
           {
            "ClassName": "M68Optic",
@@ -465,167 +541,24 @@
              "SlotName": "",
              "Items": [
               {
-               "ClassName": "Battery9V"
+               "ClassName": "Battery9V",
+               "Chance": 1.0,
+               "InventoryCargo": []
               }
              ]
             }
-           ]
+           ],
+           "InventoryCargo": []
           },
           {
            "ClassName": "M4_Suppressor",
-           "Chance": 0.15
+           "Chance": 0.15,
+           "InventoryCargo": []
           }
          ]
-        }
-       ]
-      },
-      {
-       "ClassName": "SCARH",
-       "Health": [
-        {
-         "Min": 0.7,
-         "Max": 1.0,
-         "Zone": ""
         }
        ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
-          {
-           "ClassName": "Mag_SCARH_20Rnd"
-          },
-          {
-           "ClassName": "ACOGOptic",
-           "Chance": 0.4
-          },
-          {
-           "ClassName": "MK4Optic_Tan",
-           "Chance": 0.2
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "ClassName": "SCARH_Black",
-       "Health": [
-        {
-         "Min": 0.7,
-         "Max": 1.0,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
-          {
-           "ClassName": "Mag_SCARH_20Rnd_Black"
-          },
-          {
-           "ClassName": "MK4Optic_Black",
-           "Chance": 0.3
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "ClassName": "M14",
-       "Health": [
-        {
-         "Min": 0.7,
-         "Max": 1.0,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
-          {
-           "ClassName": "Mag_M14_20Rnd"
-          },
-          {
-           "ClassName": "ACOGOptic",
-           "Chance": 0.35
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "ClassName": "ASVAL",
-       "Health": [
-        {
-         "Min": 0.7,
-         "Max": 1.0,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
-          {
-           "ClassName": "Mag_VAL_20Rnd"
-          },
-          {
-           "ClassName": "PSO1Optic",
-           "Chance": 0.4
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "ClassName": "VSS",
-       "Health": [
-        {
-         "Min": 0.7,
-         "Max": 1.0,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
-          {
-           "ClassName": "Mag_VSS_10Rnd"
-          },
-          {
-           "ClassName": "PSO1Optic",
-           "Chance": 0.4
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "ClassName": "SV98",
-       "Health": [
-        {
-         "Min": 0.7,
-         "Max": 1.0,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
-          {
-           "ClassName": "Mag_SV98_10Rnd"
-          },
-          {
-           "ClassName": "PSO1Optic",
-           "Chance": 0.5
-          }
-         ]
-        }
-       ]
+       "InventoryCargo": []
       }
      ]
     }
@@ -633,39 +566,406 @@
    "InventoryCargo": [
     {
      "ClassName": "Mag_STANAG_30Rnd",
-     "Chance": 1.0
+     "Chance": 0.6,
+     "InventoryCargo": []
     },
     {
      "ClassName": "Mag_STANAG_30Rnd",
-     "Chance": 0.5
-    },
-    {
-     "ClassName": "Ammo_308Win",
-     "Chance": 0.4,
-     "Quantity": {
-      "Min": 0.4,
-      "Max": 1.0
-     }
-    },
-    {
-     "ClassName": "Ammo_9x39",
      "Chance": 0.3,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Ammo_556x45",
+     "Chance": 0.25,
      "Quantity": {
-      "Min": 0.4,
+      "Min": 0.3,
       "Max": 1.0
-     }
+     },
+     "InventoryCargo": []
     }
    ]
   },
   {
    "ClassName": "PRIMARY",
-   "Chance": 0.35,
+   "Chance": 0.41,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "SCARH",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.7,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_SCARH_20Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": []
+          },
+          {
+           "ClassName": "ACOGOptic",
+           "Chance": 0.4,
+           "InventoryCargo": []
+          },
+          {
+           "ClassName": "MK4Optic_Tan",
+           "Chance": 0.2,
+           "InventoryCargo": []
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_SCARH_20Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Mag_SCARH_20Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Ammo_308Win",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 0.41,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "SCARH_Black",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.7,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_SCARH_20Rnd_Black",
+           "Chance": 1.0,
+           "InventoryCargo": []
+          },
+          {
+           "ClassName": "MK4Optic_Black",
+           "Chance": 0.3,
+           "InventoryCargo": []
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_SCARH_20Rnd_Black",
+     "Chance": 0.6,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Mag_SCARH_20Rnd_Black",
+     "Chance": 0.3,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Ammo_308Win",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 0.82,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "M14",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.7,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_M14_20Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": []
+          },
+          {
+           "ClassName": "ACOGOptic",
+           "Chance": 0.35,
+           "InventoryCargo": []
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_M14_20Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Mag_M14_20Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Ammo_308Win",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 0.82,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "ASVAL",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.7,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_VAL_20Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": []
+          },
+          {
+           "ClassName": "PSO1Optic",
+           "Chance": 0.4,
+           "InventoryCargo": []
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_VAL_20Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Mag_VAL_20Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Ammo_9x39",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 0.82,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "VSS",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.7,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_VSS_10Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": []
+          },
+          {
+           "ClassName": "PSO1Optic",
+           "Chance": 0.4,
+           "InventoryCargo": []
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_VSS_10Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Mag_VSS_10Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Ammo_9x39",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 0.82,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "SV98",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.7,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_SV98_10Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": []
+          },
+          {
+           "ClassName": "PSO1Optic",
+           "Chance": 0.5,
+           "InventoryCargo": []
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_SV98_10Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Mag_SV98_10Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "Ammo_762x54",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
    "InventoryAttachments": [
     {
      "SlotName": "Shoulder",
      "Items": [
       {
        "ClassName": "FAL",
+       "Chance": 1.0,
        "Health": [
         {
          "Min": 0.7,
@@ -678,15 +978,19 @@
          "SlotName": "",
          "Items": [
           {
-           "ClassName": "Mag_FAL_20Rnd"
+           "ClassName": "Mag_FAL_20Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": []
           },
           {
            "ClassName": "ACOGOptic",
-           "Chance": 0.35
+           "Chance": 0.35,
+           "InventoryCargo": []
           }
          ]
         }
-       ]
+       ],
+       "InventoryCargo": []
       }
      ]
     }
@@ -694,11 +998,13 @@
    "InventoryCargo": [
     {
      "ClassName": "Mag_FAL_20Rnd",
-     "Chance": 1.0
+     "Chance": 1.0,
+     "InventoryCargo": []
     },
     {
      "ClassName": "Mag_FAL_20Rnd",
-     "Chance": 0.5
+     "Chance": 0.5,
+     "InventoryCargo": []
     }
    ]
   }

@@ -61,8 +61,19 @@ so you don't need theirs at runtime once the zones point at these.
 |---|---|
 | `SpatialSettings.json` | `<profile>/ExpansionMod/AI/Spatial/SpatialSettings.json` |
 | `loadouts/*.json` | `<profile>/ExpansionMod/Loadouts/` |
+| `validate.py` | — run before deploying, see below |
 
-Ten original loadouts, tier-matched to the server's `types.xml` loot tiers (see `weapon-audit.md`):
+**Run `./validate.py` before every deploy.** All eleven loadouts must be present in
+`<profile>/ExpansionMod/Loadouts/` — a loadout referenced by `SpatialSettings.json` that isn't on
+disk produces naked, unarmed AI with no error in the log after the first spawn (see
+[Silent failure modes](#silent-failure-modes)). Point it at your server's `types.xml` to also
+class-check every item:
+
+```sh
+./validate.py --types /path/to/types.xml
+```
+
+Eleven original loadouts, tier-matched to the server's `types.xml` loot tiers (see `weapon-audit.md`):
 
 | Loadout | Tier | Feel |
 |---|---|---|
@@ -265,6 +276,39 @@ learned the hard way — match the mod's own generated file:
 
 If a boot crashes with `jsonfileloader.c` + `spatialsettings.c` in the `.RPT` stack, it's a format
 mismatch here. Rename the file, boot once to regenerate the stock default, and diff against it.
+
+## Silent failure modes
+
+These three cost a full play session to find. None of them logs anything useful. `validate.py`
+checks for all three.
+
+**1. Every loadout node needs an explicit `Chance`.** Enforce zeroes absent *primitive* fields when
+deserialising, so a node written without `"Chance"` loads as `Chance = 0`, and:
+
+```c
+bool CanSpawn() {
+    if (!Chance || Chance < Math.RandomFloat(0.0, 1.0)) return false;
+```
+
+...drops it silently. Absent `ref` members (`Quantity`, `Health`) survive at their constructor value,
+which is why this isn't obvious — the file half-works. Symptom: AI spawn with no shirt, no pants, no
+boots and **no weapon**, while chance-carrying slots (backpack, headgear, vest) and all cargo appear
+normally. You get spare magazines with no rifle. Expansion's own generated loadouts always write
+every field, so their data never hits this path.
+
+**2. One weapon per set, not many weapons in one slot.** In `ExpansionPrefabObject.c` the AI-specific
+remap sends the first candidate in a `Shoulder` slot to `HANDS` and the second to `SHOULDER` — so
+several weapons in one slot means the AI spawns **carrying two guns**. Stock's pattern is one weapon
+per set with every set sharing a name; the `setNames` dedupe then guarantees exactly one. To keep the
+armed rate when splitting a set of chance `C` into `n`, give each `1-(1-C)^(1/n)`.
+
+**3. A missing loadout file fails open, then goes quiet.** `SpatialSettings.c` only existence-checks
+`Point` loadouts, and its `loadout = "HumanLoadout.json"` fallback is a no-op (the `foreach` variable
+is a copy); `Location` and `Audio` get no check at all. `ExpansionPrefab.Load()` then inserts an
+**empty** prefab into its static cache *before* testing `FileExist`, so the first request returns
+null and logs `Unknown loadout requested`, and every request after that is a cache hit returning the
+empty prefab — applied without complaint. One missing file means naked AI for the rest of the
+server's uptime, with a single line in the log at boot.
 
 ## Known limitation: spawns can appear in view
 
