@@ -5,5 +5,8 @@ ExpansionMod-Source/
 # local rollback snapshots
 *.bak
 
+# local working notes for Claude Code
+CLAUDE.md
+
 # OS cruft
 .DS_Store
