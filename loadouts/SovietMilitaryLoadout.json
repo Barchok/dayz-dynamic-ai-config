@@ -67,6 +67,54 @@
       }
      ],
      "InventoryCargo": []
+    },
+    {
+     "ClassName": "CombatBoots_Beige",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CombatBoots_Black",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CombatBoots_Brown",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CombatBoots_Grey",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
     }
    ]
   },
@@ -124,7 +172,7 @@
    ]
   },
   {
-   "SlotName": "MASK",
+   "SlotName": "Mask",
    "Items": [
     {
      "ClassName": "Bandana_Camopattern",
@@ -145,7 +193,31 @@
    "Items": [
     {
      "ClassName": "TacticalGloves_Green",
-     "Chance": 0.35,
+     "Chance": 0.1338,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "TacticalGloves_Beige",
+     "Chance": 0.1338,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "TacticalGloves_Black",
+     "Chance": 0.1338,
      "Health": [
       {
        "Min": 0.5,
@@ -179,7 +251,19 @@
    "Items": [
     {
      "ClassName": "HighCapacityVest_Olive",
-     "Chance": 0.45,
+     "Chance": 0.2584,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "HighCapacityVest_Black",
+     "Chance": 0.2584,
      "Health": [
       {
        "Min": 0.5,
@@ -208,7 +292,7 @@
    "Items": [
     {
      "ClassName": "AssaultBag_Ttsko",
-     "Chance": 0.55,
+     "Chance": 0.18,
      "Health": [
       {
        "Min": 0.5,
@@ -220,12 +304,210 @@
       {
        "ClassName": "Mag_AKM_30Rnd",
        "Chance": 0.5,
-       "InventoryCargo": []
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
       },
       {
        "ClassName": "BandageDressing",
        "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Ammo_762x39",
+       "Chance": 0.35,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       },
        "InventoryCargo": []
+      }
+     ]
+    },
+    {
+     "ClassName": "SmershBag",
+     "Chance": 0.15,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Mag_AKM_30Rnd",
+       "Chance": 0.5,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "BandageDressing",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Ammo_762x39",
+       "Chance": 0.35,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       },
+       "InventoryCargo": []
+      }
+     ]
+    },
+    {
+     "ClassName": "DuffelBagSmall_Camo",
+     "Chance": 0.13,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Mag_AKM_30Rnd",
+       "Chance": 0.5,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "BandageDressing",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Ammo_762x39",
+       "Chance": 0.35,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       },
+       "InventoryCargo": []
+      }
+     ]
+    },
+    {
+     "ClassName": "AliceBag_Green",
+     "Chance": 0.12,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Mag_AKM_30Rnd",
+       "Chance": 0.5,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "BandageDressing",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Ammo_762x39",
+       "Chance": 0.35,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       },
+       "InventoryCargo": []
+      }
+     ]
+    },
+    {
+     "ClassName": "Attack2Bag_Green",
+     "Chance": 0.1,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Mag_AKM_30Rnd",
+       "Chance": 0.5,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "BandageDressing",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
       },
       {
        "ClassName": "Ammo_762x39",
@@ -239,23 +521,61 @@
      ]
     }
    ]
+  },
+  {
+   "SlotName": "Armband",
+   "Items": [
+    {
+     "ClassName": "Armband_Chedaki",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    }
+   ]
   }
  ],
  "InventoryCargo": [
   {
    "ClassName": "TacticalBaconCan",
    "Chance": 0.45,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.35,
+     "Max": 0.8,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "BakedBeansCan",
    "Chance": 0.4,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.35,
+     "Max": 0.8,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "PeachesCan",
    "Chance": 0.35,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.35,
+     "Max": 0.8,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "WaterBottle",
@@ -264,72 +584,194 @@
     "Min": 0.3,
     "Max": 1.0
    },
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.35,
+     "Max": 0.8,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "SodaCan_Cola",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.35,
+     "Max": 0.8,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.3,
+    "Max": 1.0
+   }
   },
   {
    "ClassName": "BandageDressing",
    "Chance": 0.8,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "TetracyclineAntibiotics",
    "Chance": 0.35,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.2,
+    "Max": 0.8
+   }
   },
   {
    "ClassName": "Morphine",
    "Chance": 0.35,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "SalineBagIV",
    "Chance": 0.25,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "PainkillerTablets",
    "Chance": 0.4,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.2,
+    "Max": 0.8
+   }
   },
   {
    "ClassName": "DisinfectantSpray",
    "Chance": 0.25,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.3,
+    "Max": 0.9
+   }
   },
   {
    "ClassName": "WeaponCleaningKit",
    "Chance": 0.45,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Screwdriver",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "CombatKnife",
    "Chance": 0.4,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Compass",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 0.9,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Matchbox",
    "Chance": 0.35,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.2,
+    "Max": 0.8
+   }
   },
   {
    "ClassName": "Whetstone",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.2,
+    "Max": 0.8
+   }
   },
   {
    "ClassName": "M67Grenade",
@@ -344,27 +786,74 @@
   {
    "ClassName": "Chemlight_Red",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.4,
+    "Max": 1.0
+   }
   },
   {
    "ClassName": "Roadflare",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.5,
+    "Max": 1.0
+   }
   },
   {
    "ClassName": "Rangefinder",
    "Chance": 0.15,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 0.9,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Binoculars",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 0.9,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Battery9V",
    "Chance": 0.4,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 0.9,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.2,
+    "Max": 0.9
+   }
   }
  ],
  "ConstructionPartsBuilt": [],
@@ -393,17 +882,38 @@
           {
            "ClassName": "Mag_AKM_30Rnd",
            "Chance": 1.0,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "KobraOptic",
            "Chance": 0.2,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "AK_Suppressor",
            "Chance": 0.03,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -417,12 +927,26 @@
     {
      "ClassName": "Mag_AKM_30Rnd",
      "Chance": 0.6,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Mag_AKM_30Rnd",
      "Chance": 0.3,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Ammo_762x39",
@@ -459,12 +983,26 @@
           {
            "ClassName": "Mag_AK74_30Rnd",
            "Chance": 1.0,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "AK_Suppressor",
            "Chance": 0.03,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -478,12 +1016,26 @@
     {
      "ClassName": "Mag_AK74_30Rnd",
      "Chance": 0.6,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Mag_AK74_30Rnd",
      "Chance": 0.3,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Ammo_545x39",
@@ -520,7 +1072,14 @@
           {
            "ClassName": "PUScopeOptic",
            "Chance": 0.3,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -533,7 +1092,7 @@
    "InventoryCargo": [
     {
      "ClassName": "Ammo_762x39",
-     "Chance": 0.8,
+     "Chance": 1.0,
      "Quantity": {
       "Min": 0.4,
       "Max": 1.0
@@ -575,12 +1134,26 @@
           {
            "ClassName": "Mag_SVD_10Rnd",
            "Chance": 1.0,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "PSO1Optic",
            "Chance": 0.3,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -593,13 +1166,27 @@
    "InventoryCargo": [
     {
      "ClassName": "Mag_SVD_10Rnd",
-     "Chance": 0.6,
-     "InventoryCargo": []
+     "Chance": 1.0,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Mag_SVD_10Rnd",
-     "Chance": 0.3,
-     "InventoryCargo": []
+     "Chance": 1.0,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Ammo_762x54",
@@ -636,7 +1223,14 @@
           {
            "ClassName": "Mag_PP19_64Rnd",
            "Chance": 1.0,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -650,12 +1244,26 @@
     {
      "ClassName": "Mag_PP19_64Rnd",
      "Chance": 0.6,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Mag_PP19_64Rnd",
      "Chance": 0.3,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Ammo_9x19",
@@ -671,42 +1279,50 @@
   {
    "ClassName": "SIDEARM",
    "Chance": 0.35,
-   "InventoryAttachments": [
+   "InventoryAttachments": [],
+   "InventoryCargo": [
     {
-     "SlotName": "Hands",
-     "Items": [
+     "ClassName": "MakarovIJ70",
+     "Chance": 1.0,
+     "Health": [
       {
-       "ClassName": "MakarovIJ70",
-       "Chance": 1.0,
-       "Health": [
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryAttachments": [
+      {
+       "SlotName": "",
+       "Items": [
         {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
+         "ClassName": "Mag_IJ70_8Rnd",
+         "Chance": 1.0,
+         "InventoryCargo": [],
+         "Health": [
           {
-           "ClassName": "Mag_IJ70_8Rnd",
-           "Chance": 1.0,
-           "InventoryCargo": []
+           "Min": 0.5,
+           "Max": 0.9,
+           "Zone": ""
           }
          ]
         }
-       ],
-       "InventoryCargo": []
+       ]
       }
-     ]
-    }
-   ],
-   "InventoryCargo": [
+     ],
+     "InventoryCargo": []
+    },
     {
      "ClassName": "Mag_IJ70_8Rnd",
      "Chance": 0.4,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     }
    ]
   }

@@ -11,7 +11,7 @@
    "SlotName": "Body",
    "Items": [
     {
-     "ClassName": "GhillieSuit_Woodland",
+     "ClassName": "GorkaEJacket_Flat",
      "Chance": 1.0,
      "Health": [
       {
@@ -23,7 +23,7 @@
      "InventoryCargo": []
     },
     {
-     "ClassName": "GhillieSuit_Mossy",
+     "ClassName": "GorkaEJacket_Autumn",
      "Chance": 1.0,
      "Health": [
       {
@@ -35,7 +35,7 @@
      "InventoryCargo": []
     },
     {
-     "ClassName": "GhillieTop_Woodland",
+     "ClassName": "GorkaEJacket_PautRev",
      "Chance": 1.0,
      "Health": [
       {
@@ -47,7 +47,55 @@
      "InventoryCargo": []
     },
     {
-     "ClassName": "GhillieTop_Mossy",
+     "ClassName": "GorkaEJacket_Summer",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "TTsKOJacket_Camo",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "HuntingJacket_Brown",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "HuntingJacket_Autumn",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "HuntingJacket_Summer",
      "Chance": 1.0,
      "Health": [
       {
@@ -76,7 +124,79 @@
      "InventoryCargo": []
     },
     {
+     "ClassName": "CargoPants_Beige",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CargoPants_Black",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CargoPants_Grey",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
      "ClassName": "GorkaPants_Flat",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "GorkaPants_Autumn",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "GorkaPants_PautRev",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "GorkaPants_Summer",
      "Chance": 1.0,
      "Health": [
       {
@@ -105,7 +225,91 @@
      "InventoryCargo": []
     },
     {
+     "ClassName": "CombatBoots_Beige",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CombatBoots_Black",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CombatBoots_Brown",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "CombatBoots_Grey",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
      "ClassName": "MilitaryBoots_Brown",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "MilitaryBoots_Beige",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "MilitaryBoots_Black",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "MilitaryBoots_Bluerock",
      "Chance": 1.0,
      "Health": [
       {
@@ -123,7 +327,7 @@
    "Items": [
     {
      "ClassName": "GhillieHood_Woodland",
-     "Chance": 0.55,
+     "Chance": 0.5025,
      "Health": [
       {
        "Min": 0.5,
@@ -135,7 +339,7 @@
     },
     {
      "ClassName": "GhillieHood_Mossy",
-     "Chance": 0.45,
+     "Chance": 0.5025,
      "Health": [
       {
        "Min": 0.5,
@@ -152,7 +356,31 @@
    "Items": [
     {
      "ClassName": "TacticalGloves_Green",
-     "Chance": 0.6,
+     "Chance": 0.2632,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "TacticalGloves_Beige",
+     "Chance": 0.2632,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "TacticalGloves_Black",
+     "Chance": 0.2632,
      "Health": [
       {
        "Min": 0.5,
@@ -186,23 +414,6 @@
    "Items": [
     {
      "ClassName": "HighCapacityVest_Olive",
-     "Chance": 0.45,
-     "Health": [
-      {
-       "Min": 0.5,
-       "Max": 0.9,
-       "Zone": ""
-      }
-     ],
-     "InventoryCargo": []
-    }
-   ]
-  },
-  {
-   "SlotName": "Back",
-   "Items": [
-    {
-     "ClassName": "HuntingBag",
      "Chance": 1.0,
      "Health": [
       {
@@ -224,22 +435,219 @@
       {
        "ClassName": "Rangefinder",
        "Chance": 0.35,
-       "InventoryCargo": []
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
       },
       {
        "ClassName": "Binoculars",
        "Chance": 0.4,
-       "InventoryCargo": []
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
       },
       {
        "ClassName": "Morphine",
        "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "ClassName": "HighCapacityVest_Black",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Ammo_308Win",
+       "Chance": 0.7,
+       "Quantity": {
+        "Min": 0.4,
+        "Max": 1.0
+       },
        "InventoryCargo": []
+      },
+      {
+       "ClassName": "Rangefinder",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Binoculars",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Morphine",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Back",
+   "Items": [
+    {
+     "ClassName": "GhillieSuit_Woodland",
+     "Chance": 0.4,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "GhillieSuit_Mossy",
+     "Chance": 0.4,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "GhillieTop_Woodland",
+     "Chance": 0.22,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "GhillieTop_Mossy",
+     "Chance": 0.22,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
+    },
+    {
+     "ClassName": "HuntingBag",
+     "Chance": 0.28,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Ammo_308Win",
+       "Chance": 0.7,
+       "Quantity": {
+        "Min": 0.4,
+        "Max": 1.0
+       },
+       "InventoryCargo": []
+      },
+      {
+       "ClassName": "Rangefinder",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Binoculars",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Morphine",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
       },
       {
        "ClassName": "TacticalBaconCan",
        "Chance": 0.4,
-       "InventoryCargo": []
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
       },
       {
        "ClassName": "WaterBottle",
@@ -248,9 +656,291 @@
         "Min": 0.3,
         "Max": 1.0
        },
-       "InventoryCargo": []
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
       }
      ]
+    },
+    {
+     "ClassName": "AliceBag_Camo",
+     "Chance": 0.15,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Ammo_308Win",
+       "Chance": 0.7,
+       "Quantity": {
+        "Min": 0.4,
+        "Max": 1.0
+       },
+       "InventoryCargo": []
+      },
+      {
+       "ClassName": "Rangefinder",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Binoculars",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Morphine",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "TacticalBaconCan",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "WaterBottle",
+       "Chance": 0.4,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       },
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "ClassName": "LeatherSack_Beige",
+     "Chance": 0.12,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Ammo_308Win",
+       "Chance": 0.7,
+       "Quantity": {
+        "Min": 0.4,
+        "Max": 1.0
+       },
+       "InventoryCargo": []
+      },
+      {
+       "ClassName": "Rangefinder",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Binoculars",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Morphine",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "TacticalBaconCan",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "WaterBottle",
+       "Chance": 0.4,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       },
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "ClassName": "LeatherSack_Natural",
+     "Chance": 0.12,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": [
+      {
+       "ClassName": "Ammo_308Win",
+       "Chance": 0.7,
+       "Quantity": {
+        "Min": 0.4,
+        "Max": 1.0
+       },
+       "InventoryCargo": []
+      },
+      {
+       "ClassName": "Rangefinder",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Binoculars",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "Morphine",
+       "Chance": 0.35,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 1.0,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "TacticalBaconCan",
+       "Chance": 0.4,
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
+      },
+      {
+       "ClassName": "WaterBottle",
+       "Chance": 0.4,
+       "Quantity": {
+        "Min": 0.3,
+        "Max": 1.0
+       },
+       "InventoryCargo": [],
+       "Health": [
+        {
+         "Min": 0.35,
+         "Max": 0.8,
+         "Zone": ""
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "SlotName": "Armband",
+   "Items": [
+    {
+     "ClassName": "Armband_Wolf",
+     "Chance": 1.0,
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryCargo": []
     }
    ]
   }
@@ -259,51 +949,110 @@
   {
    "ClassName": "BandageDressing",
    "Chance": 0.7,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Morphine",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "PainkillerTablets",
    "Chance": 0.35,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 1.0,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.2,
+    "Max": 0.8
+   }
   },
   {
    "ClassName": "CombatKnife",
    "Chance": 0.45,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Matchbox",
    "Chance": 0.3,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ],
+   "Quantity": {
+    "Min": 0.2,
+    "Max": 0.8
+   }
   },
   {
    "ClassName": "Chemlight_Green",
    "Chance": 0.25,
-   "InventoryCargo": []
-  },
-  {
-   "ClassName": "Ammo_308Win",
-   "Chance": 0.5,
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ],
    "Quantity": {
-    "Min": 0.3,
+    "Min": 0.4,
     "Max": 1.0
-   },
-   "InventoryCargo": []
+   }
   },
   {
    "ClassName": "WeaponCleaningKit",
    "Chance": 0.4,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.4,
+     "Max": 0.85,
+     "Zone": ""
+    }
+   ]
   },
   {
    "ClassName": "Compass",
    "Chance": 0.35,
-   "InventoryCargo": []
+   "InventoryCargo": [],
+   "Health": [
+    {
+     "Min": 0.5,
+     "Max": 0.9,
+     "Zone": ""
+    }
+   ]
   }
  ],
  "ConstructionPartsBuilt": [],
@@ -332,17 +1081,38 @@
           {
            "ClassName": "HuntingOptic",
            "Chance": 0.85,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "GhillieAtt_Woodland",
            "Chance": 0.5,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "GhillieAtt_Mossy",
            "Chance": 0.3,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -355,7 +1125,7 @@
    "InventoryCargo": [
     {
      "ClassName": "Ammo_308Win",
-     "Chance": 0.8,
+     "Chance": 1.0,
      "Quantity": {
       "Min": 0.4,
       "Max": 1.0
@@ -395,14 +1165,28 @@
          "SlotName": "",
          "Items": [
           {
-           "ClassName": "PUScopeOptic",
+           "ClassName": "HuntingOptic",
            "Chance": 0.6,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "GhillieAtt_Tan",
            "Chance": 0.4,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -415,7 +1199,7 @@
    "InventoryCargo": [
     {
      "ClassName": "Ammo_308Win",
-     "Chance": 0.8,
+     "Chance": 1.0,
      "Quantity": {
       "Min": 0.4,
       "Max": 1.0
@@ -435,7 +1219,7 @@
   },
   {
    "ClassName": "PRIMARY",
-   "Chance": 1.0,
+   "Chance": 0.24,
    "InventoryAttachments": [
     {
      "SlotName": "Shoulder",
@@ -457,17 +1241,38 @@
           {
            "ClassName": "Mag_SV98_10Rnd",
            "Chance": 1.0,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           },
           {
-           "ClassName": "PSO1Optic",
+           "ClassName": "MK4Optic_Green",
            "Chance": 0.7,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           },
           {
            "ClassName": "GhillieAtt_Woodland",
            "Chance": 0.4,
-           "InventoryCargo": []
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.6,
+             "Max": 1.0,
+             "Zone": ""
+            }
+           ]
           }
          ]
         }
@@ -480,13 +1285,27 @@
    "InventoryCargo": [
     {
      "ClassName": "Mag_SV98_10Rnd",
-     "Chance": 0.6,
-     "InventoryCargo": []
+     "Chance": 1.0,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.6,
+       "Max": 1.0,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Mag_SV98_10Rnd",
-     "Chance": 0.3,
-     "InventoryCargo": []
+     "Chance": 1.0,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.6,
+       "Max": 1.0,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Ammo_762x54",
@@ -502,47 +1321,62 @@
   {
    "ClassName": "SIDEARM",
    "Chance": 0.2584,
-   "InventoryAttachments": [
+   "InventoryAttachments": [],
+   "InventoryCargo": [
     {
-     "SlotName": "Hands",
-     "Items": [
+     "ClassName": "CZ75",
+     "Chance": 1.0,
+     "Health": [
       {
-       "ClassName": "CZ75",
-       "Chance": 1.0,
-       "Health": [
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryAttachments": [
+      {
+       "SlotName": "",
+       "Items": [
         {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
+         "ClassName": "Mag_CZ75_15Rnd",
+         "Chance": 1.0,
+         "InventoryCargo": [],
+         "Health": [
+          {
+           "Min": 0.5,
+           "Max": 0.9,
+           "Zone": ""
+          }
+         ]
+        },
         {
-         "SlotName": "",
-         "Items": [
+         "ClassName": "PistolSuppressor",
+         "Chance": 0.1,
+         "InventoryCargo": [],
+         "Health": [
           {
-           "ClassName": "Mag_CZ75_15Rnd",
-           "Chance": 1.0,
-           "InventoryCargo": []
-          },
-          {
-           "ClassName": "PistolSuppressor",
-           "Chance": 0.1,
-           "InventoryCargo": []
+           "Min": 0.5,
+           "Max": 0.9,
+           "Zone": ""
           }
          ]
         }
-       ],
-       "InventoryCargo": []
+       ]
       }
-     ]
-    }
-   ],
-   "InventoryCargo": [
+     ],
+     "InventoryCargo": []
+    },
     {
      "ClassName": "Mag_CZ75_15Rnd",
      "Chance": 0.45,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Ammo_9x19",
@@ -558,42 +1392,50 @@
   {
    "ClassName": "SIDEARM",
    "Chance": 0.2584,
-   "InventoryAttachments": [
+   "InventoryAttachments": [],
+   "InventoryCargo": [
     {
-     "SlotName": "Hands",
-     "Items": [
+     "ClassName": "MakarovIJ70",
+     "Chance": 1.0,
+     "Health": [
       {
-       "ClassName": "MakarovIJ70",
-       "Chance": 1.0,
-       "Health": [
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ],
+     "InventoryAttachments": [
+      {
+       "SlotName": "",
+       "Items": [
         {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ],
-       "InventoryAttachments": [
-        {
-         "SlotName": "",
-         "Items": [
+         "ClassName": "Mag_IJ70_8Rnd",
+         "Chance": 1.0,
+         "InventoryCargo": [],
+         "Health": [
           {
-           "ClassName": "Mag_IJ70_8Rnd",
-           "Chance": 1.0,
-           "InventoryCargo": []
+           "Min": 0.5,
+           "Max": 0.9,
+           "Zone": ""
           }
          ]
         }
-       ],
-       "InventoryCargo": []
+       ]
       }
-     ]
-    }
-   ],
-   "InventoryCargo": [
+     ],
+     "InventoryCargo": []
+    },
     {
      "ClassName": "Mag_IJ70_8Rnd",
      "Chance": 0.45,
-     "InventoryCargo": []
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
     },
     {
      "ClassName": "Ammo_380",

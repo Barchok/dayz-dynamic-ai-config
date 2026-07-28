@@ -68,11 +68,19 @@ so you don't need theirs at runtime once the zones point at these.
 `<profile>/ExpansionMod/Loadouts/` — a loadout referenced by `SpatialSettings.json` that isn't on
 disk produces naked, unarmed AI with no error in the log after the first spawn (see
 [Silent failure modes](#silent-failure-modes)). Point it at your server's `types.xml` to also
-class-check every item:
+class-check every item, and at a slot map to check that every item can actually attach where it's
+put:
 
 ```sh
-./validate.py --types /path/to/types.xml
+./fetch_slotmap.py                                    # once, or after a game update
+./validate.py --types /path/to/types.xml \
+              --slots ExpansionMod-Source/slotmap.json
 ```
+
+`fetch_slotmap.py` builds the slot map from the vanilla `CfgVehicles`/`CfgWeapons` fields
+(`inventorySlot[]`, `attachments[]`, `magazines[]`, `chamberableFrom[]`), which is data types.xml
+doesn't carry. It writes into the gitignored snapshot dir — Bohemia's data stays unpublished, same
+as `types.xml`.
 
 Eleven original loadouts, tier-matched to the server's `types.xml` loot tiers (see `weapon-audit.md`):
 
@@ -234,6 +242,34 @@ The three Russian military tiers (Gorka / Soviet / East) share an AK-family arse
 units even where their gun pools overlap. `loadouts/` were generated from a data-driven builder; the
 selection and arrangement are original.
 
+### Debug: armband archetype tags (temporary)
+
+Every loadout currently carries a unique armband at `Chance 1.0`, so an archetype can be identified on
+sight while the config is still being tuned. **This is scaffolding — drop the `Armband` block from each
+`InventoryAttachments` array once behaviour is confirmed.**
+
+Armbands are the right marker for this because all 41 classes are `nominal 0` in `types.xml`: they
+never enter the loot economy, so no player can be wearing one and a false positive is impossible.
+They also survive the AI looting rules — `eAILootingBehavior.DEFAULT` is firearms-only, so AI never
+strip clothing off each other and the tag stays attached to the archetype that spawned with it.
+
+| Armband | Loadout | | Armband | Loadout |
+|---|---|---|---|---|
+| White | `CivilianTierLoadout` | | Blue | `EastMilitaryLoadout` |
+| Green | `SurvivorTierLoadout` | | Black | `WestMilitaryLoadout` |
+| Orange | `HunterTierLoadout` | | Pink | `EliteTierLoadout` |
+| Red | `RaiderLoadout` | | Wolf | `GhillieSniperLoadout` |
+| Yellow | `GorkaMilitaryLoadout` | | Chedaki | `SovietMilitaryLoadout` |
+| | | | BrainZ | `HazmatLoadout` |
+
+Solid colours went to the eight archetypes hardest to tell apart at range; the three with already
+unmistakable silhouettes (ghillie suit, full TTsKO, gray NBC suit) took thematic ones. The pairs most
+likely to be confused are deliberately far apart — East/West are Blue/Black, and the two western tiers
+are Black/Pink.
+
+Caveat: the ghillie suit may occlude the armband, and `Armband_Wolf` / `_Chedaki` / `_BrainZ` are
+unverified visually — swap them for spare solid colours if they read poorly in the field.
+
 ## Knobs you'll actually tune
 
 All in `SpatialSettings.json` root unless noted.
@@ -332,6 +368,14 @@ is a copy); `Location` and `Audio` get no check at all. `ExpansionPrefab.Load()`
 null and logs `Unknown loadout requested`, and every request after that is a cache hit returning the
 empty prefab — applied without complaint. One missing file means naked AI for the rest of the
 server's uptime, with a single line in the log at boot.
+
+**4. An item in a slot that cannot accept it.** `CreateAttachment(Ex)` returns null and the entry
+simply never spawns — nothing is logged, and the only symptom is a slot that comes out emptier than
+its chances say it should. Two forms: a worn item in the wrong slot (`GorkaHelmetVisor` is a
+`Glass`-slot attachment on `GorkaHelmet`, not `Headgear`; `GhillieSuit_*`/`GhillieTop_*` are `Back`
+items, not `Body`), and an optic whose mount category isn't in the weapon's `attachments[]`
+(`M16A2` has no optics category at all, so any optic on it is a no-op). Needs `--slots`, since
+types.xml carries no slot data.
 
 ## Known limitation: spawns can appear in view
 
