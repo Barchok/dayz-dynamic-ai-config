@@ -62,6 +62,38 @@ ARRAYS = {
     "attachments": re.compile(r"attachments\[\]\s*=\s*\{([^}]*)\}"),
     "magazines": re.compile(r"magazines\[\]\s*=\s*\{([^}]*)\}"),
     "ammo": re.compile(r"chamberableFrom\[\]\s*=\s*\{([^}]*)\}"),
+    # fire modes drive how threatening a gun is in AI hands, which is a
+    # different axis from how rare it is -- a Scout is rarer than an M4 and
+    # far less dangerous. Projectile damage is NOT here: it lives in CfgAmmo
+    # under Bullet_*, which this mirror does not publish.
+    "modes": re.compile(r"modes\[\]\s*=\s*\{([^}]*)\}"),
+}
+SCALARS = {
+    "count": re.compile(r"\bcount\s*=\s*(\d+)\s*;"),
+    "chamberSize": re.compile(r"\bchamberSize\s*=\s*(\d+)\s*;"),
+}
+
+# Classes the mirror does not publish at all. Without these, validate.py has no
+# record for the weapon and silently skips every attachment hung off it -- the
+# check passes by omission, which is the worst kind of green. Confirmed in game
+# rather than from config; keep the provenance note if you add to this.
+OVERRIDES = {
+    # SCAR-H: .308, full-auto, 20rd, mounts the generic optics family
+    # (M68/holo, ACOG, MK4, Reflex) like the M4A1 and FAL do.
+    "SCARH": {
+        "magazines": ["Mag_SCARH_20Rnd"],
+        "ammo": ["Ammo_308Win", "Ammo_308WinTracer"],
+        "attachments": ["weaponWrap", "weaponOptics", "weaponFlashlight"],
+        "modes": ["SemiAuto", "FullAuto"],
+    },
+    "SCARH_Black": {
+        "magazines": ["Mag_SCARH_20Rnd_Black", "Mag_SCARH_20Rnd"],
+        "ammo": ["Ammo_308Win", "Ammo_308WinTracer"],
+        "attachments": ["weaponWrap", "weaponOptics", "weaponFlashlight"],
+        "modes": ["SemiAuto", "FullAuto"],
+    },
+    "Mag_SCARH_20Rnd": {"slot": ["magazine", "magazine2", "magazine3"], "count": 20},
+    "Mag_SCARH_20Rnd_Black": {"slot": ["magazine", "magazine2", "magazine3"], "count": 20},
 }
 
 
@@ -97,6 +129,10 @@ def parse(text, parent, own):
                         if v.strip()]
                 if vals:
                     own.setdefault(name, {}).setdefault(key, vals)
+        for key, rx in SCALARS.items():
+            hit = rx.search(body)
+            if hit:
+                own.setdefault(name, {}).setdefault(key, int(hit.group(1)))
 
 
 def main():
@@ -126,12 +162,16 @@ def main():
     out = {}
     for name in set(parent) | set(own):
         rec = {}
-        for key in ARRAYS:
+        for key in list(ARRAYS) + list(SCALARS):
             val = resolve(name, key)
             if val:
                 rec[key] = val
         if rec:
             out[name] = rec
+
+    added = [k for k in OVERRIDES if k not in out]
+    for name, rec in OVERRIDES.items():
+        out.setdefault(name, {}).update(rec)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(dict(sorted(out.items())), open(OUT, "w"), indent=1)
@@ -139,6 +179,9 @@ def main():
     n_att = sum(1 for v in out.values() if "attachments" in v)
     print(f"\n{len(out)} classes ({n_slot} with a worn slot, {n_att} accepting "
           f"attachments) -> {os.path.relpath(OUT)}")
+    if added:
+        print(f"  + {len(added)} from OVERRIDES (absent from the mirror): "
+              f"{', '.join(sorted(added))}")
 
 
 if __name__ == "__main__":

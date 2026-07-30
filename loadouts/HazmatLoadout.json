@@ -222,18 +222,6 @@
        }
       },
       {
-       "ClassName": "Mag_AK74_30Rnd",
-       "Chance": 0.4,
-       "InventoryCargo": [],
-       "Health": [
-        {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ]
-      },
-      {
        "ClassName": "Morphine",
        "Chance": 0.3,
        "InventoryCargo": [],
@@ -273,18 +261,6 @@
         "Min": 0.2,
         "Max": 0.8
        }
-      },
-      {
-       "ClassName": "Mag_AK74_30Rnd",
-       "Chance": 0.4,
-       "InventoryCargo": [],
-       "Health": [
-        {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ]
       },
       {
        "ClassName": "Morphine",
@@ -328,18 +304,6 @@
        }
       },
       {
-       "ClassName": "Mag_AK74_30Rnd",
-       "Chance": 0.4,
-       "InventoryCargo": [],
-       "Health": [
-        {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ]
-      },
-      {
        "ClassName": "Morphine",
        "Chance": 0.3,
        "InventoryCargo": [],
@@ -381,18 +345,6 @@
        }
       },
       {
-       "ClassName": "Mag_AK74_30Rnd",
-       "Chance": 0.4,
-       "InventoryCargo": [],
-       "Health": [
-        {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ]
-      },
-      {
        "ClassName": "Morphine",
        "Chance": 0.3,
        "InventoryCargo": [],
@@ -432,18 +384,6 @@
         "Min": 0.2,
         "Max": 0.8
        }
-      },
-      {
-       "ClassName": "Mag_AK74_30Rnd",
-       "Chance": 0.4,
-       "InventoryCargo": [],
-       "Health": [
-        {
-         "Min": 0.5,
-         "Max": 0.9,
-         "Zone": ""
-        }
-       ]
       },
       {
        "ClassName": "Morphine",
@@ -752,6 +692,273 @@
      "SlotName": "Shoulder",
      "Items": [
       {
+       "ClassName": "AKS74U",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK74_30Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_AK74_30Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Mag_AK74_30Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Ammo_545x39",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "AKS74U",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK74_30Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_AK74_30Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Mag_AK74_30Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Ammo_545x39",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "AKS74U",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AK74_30Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_AK74_30Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Mag_AK74_30Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Ammo_545x39",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
        "ClassName": "AKM",
        "Chance": 1.0,
        "Health": [
@@ -841,7 +1048,7 @@
      "SlotName": "Shoulder",
      "Items": [
       {
-       "ClassName": "SVD",
+       "ClassName": "AKM",
        "Chance": 1.0,
        "Health": [
         {
@@ -855,7 +1062,7 @@
          "SlotName": "",
          "Items": [
           {
-           "ClassName": "Mag_SVD_10Rnd",
+           "ClassName": "Mag_AKM_30Rnd",
            "Chance": 1.0,
            "InventoryCargo": [],
            "Health": [
@@ -867,8 +1074,8 @@
            ]
           },
           {
-           "ClassName": "PSO1Optic",
-           "Chance": 0.3,
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03,
            "InventoryCargo": [],
            "Health": [
             {
@@ -888,8 +1095,8 @@
    ],
    "InventoryCargo": [
     {
-     "ClassName": "Mag_SVD_10Rnd",
-     "Chance": 1.0,
+     "ClassName": "Mag_AKM_30Rnd",
+     "Chance": 0.6,
      "InventoryCargo": [],
      "Health": [
       {
@@ -900,8 +1107,8 @@
      ]
     },
     {
-     "ClassName": "Mag_SVD_10Rnd",
-     "Chance": 1.0,
+     "ClassName": "Mag_AKM_30Rnd",
+     "Chance": 0.3,
      "InventoryCargo": [],
      "Health": [
       {
@@ -912,7 +1119,96 @@
      ]
     },
     {
-     "ClassName": "Ammo_762x54",
+     "ClassName": "Ammo_762x39",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "AKM",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_AKM_30Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          },
+          {
+           "ClassName": "AK_Suppressor",
+           "Chance": 0.03,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_AKM_30Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Mag_AKM_30Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Ammo_762x39",
      "Chance": 0.25,
      "Quantity": {
       "Min": 0.3,
@@ -1014,6 +1310,196 @@
     },
     {
      "ClassName": "Ammo_556x45",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "M4A1",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_STANAG_30Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          },
+          {
+           "ClassName": "M68Optic",
+           "Chance": 0.3,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          },
+          {
+           "ClassName": "M4_Suppressor",
+           "Chance": 0.03,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_STANAG_30Rnd",
+     "Chance": 0.6,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Mag_STANAG_30Rnd",
+     "Chance": 0.3,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Ammo_556x45",
+     "Chance": 0.25,
+     "Quantity": {
+      "Min": 0.3,
+      "Max": 1.0
+     },
+     "InventoryCargo": []
+    }
+   ]
+  },
+  {
+   "ClassName": "PRIMARY",
+   "Chance": 1.0,
+   "InventoryAttachments": [
+    {
+     "SlotName": "Shoulder",
+     "Items": [
+      {
+       "ClassName": "SVD",
+       "Chance": 1.0,
+       "Health": [
+        {
+         "Min": 0.5,
+         "Max": 0.9,
+         "Zone": ""
+        }
+       ],
+       "InventoryAttachments": [
+        {
+         "SlotName": "",
+         "Items": [
+          {
+           "ClassName": "Mag_SVD_10Rnd",
+           "Chance": 1.0,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          },
+          {
+           "ClassName": "PSO1Optic",
+           "Chance": 0.3,
+           "InventoryCargo": [],
+           "Health": [
+            {
+             "Min": 0.5,
+             "Max": 0.9,
+             "Zone": ""
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "InventoryCargo": []
+      }
+     ]
+    }
+   ],
+   "InventoryCargo": [
+    {
+     "ClassName": "Mag_SVD_10Rnd",
+     "Chance": 1.0,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Mag_SVD_10Rnd",
+     "Chance": 1.0,
+     "InventoryCargo": [],
+     "Health": [
+      {
+       "Min": 0.5,
+       "Max": 0.9,
+       "Zone": ""
+      }
+     ]
+    },
+    {
+     "ClassName": "Ammo_762x54",
      "Chance": 0.25,
      "Quantity": {
       "Min": 0.3,

@@ -179,13 +179,19 @@ def check_settings():
         return
     d = json.load(open(SETTINGS))
     referenced = set()
+    # Point/Location/Audio use Spatial_ZoneLoadout (a list); the Group roam
+    # layer uses Spatial_Loadout (a single string). Checking only the former
+    # left all roam loadouts unvalidated -- a typo there spawns naked AI for
+    # the rest of the server's uptime with one line in the log (failure mode 3).
     for key in ("Point", "Location", "Audio", "Group"):
         for entry in d.get(key, []):
-            lo = entry.get("Spatial_ZoneLoadout")
-            if lo is None:
-                continue
-            for one in (lo if isinstance(lo, list) else [lo]):
-                referenced.add(one)
+            for field in ("Spatial_ZoneLoadout", "Spatial_Loadout"):
+                lo = entry.get(field)
+                if lo is None:
+                    continue
+                for one in (lo if isinstance(lo, list) else [lo]):
+                    if one:
+                        referenced.add(one)
 
     on_disk = {os.path.basename(p) for p in glob.glob(os.path.join(LOADOUT_DIR, "*.json"))}
     for r in sorted(referenced):

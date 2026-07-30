@@ -2,6 +2,13 @@
 # Expansion-generated files) — kept locally for verification, never published
 ExpansionMod-Source/
 
+# landing spot for Expansion-generated server files pulled off the live box
+drop/
+
+# upstream mod sources, cloned locally for verification — never published.
+# Expansion is CC BY-NC-ND; this is a read-only reference, nothing is copied into the repo.
+mod-sources/
+
 # local rollback snapshots
 *.bak
 
